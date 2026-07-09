@@ -84,6 +84,7 @@ const SAMPLE_PRESETS = [
   { label: "Wide category-style tree", levels: 3, maxChildren: 7, weighted: true },
 ];
 const DEFAULT_SAMPLE_INDEX = 5;
+const DEFAULT_DOI_DATASET_INDEX = 0;
 const DOI_VISIBLE_LIMIT = 280;
 const DOI_CHILD_LIMIT = 70;
 const DOI_SEARCH_LIMIT = 120;
@@ -103,6 +104,8 @@ document.addEventListener("DOMContentLoaded", () => {
   updateChartControls();
   render();
   loadSelectedDcProperty();
+  els.doiDatasetSelect.value = String(DEFAULT_DOI_DATASET_INDEX);
+  loadSelectedDoiDataset();
 });
 
 function bindElements() {
