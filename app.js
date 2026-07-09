@@ -88,6 +88,7 @@ const DEFAULT_DOI_DATASET_INDEX = 0;
 const DOI_VISIBLE_LIMIT = 280;
 const DOI_CHILD_LIMIT = 70;
 const DOI_SEARCH_LIMIT = 120;
+const SEARCH_OPTION_LIMIT = 450;
 
 document.addEventListener("DOMContentLoaded", () => {
   bindElements();
@@ -130,6 +131,7 @@ function bindElements() {
     "treeCueLength",
     "maxImageHeight",
     "searchInput",
+    "searchOptions",
     "drillUpBtn",
     "chartPath",
     "treeMeta",
@@ -245,7 +247,7 @@ function updateChartControls() {
   els.dcDatasetField.classList.toggle("hidden", state.chartType !== "dc-treemap");
   els.dcPropertyField.classList.toggle("hidden", state.chartType !== "dc-treemap");
   els.treeViewPanel.classList.toggle("hidden", state.chartType !== "tree");
-  els.searchInput.placeholder = state.chartType === "dc-treemap" ? "Find within D&C tree" : "Find a node";
+  els.searchInput.placeholder = searchPlaceholder();
   [els.treeChartTab, els.classicTreemapChartTab, els.dcTreemapChartTab].forEach((tab) => {
     const active = tab.dataset.chart === state.chartType;
     tab.classList.toggle("active", active);
@@ -266,6 +268,12 @@ function chartLabel(chartType) {
   if (chartType === "dc-treemap") return "D&C treemap chart";
   if (chartType === "classic-treemap") return "Treemap chart";
   return "DOI tree chart";
+}
+
+function searchPlaceholder() {
+  if (state.chartType === "dc-treemap") return "Find D&C section";
+  if (state.chartType === "classic-treemap") return "Find Treemap section";
+  return "Find DOI node";
 }
 
 function saveActiveChartData() {
@@ -802,6 +810,7 @@ function render() {
   readSettings();
   computeWeights(state.root);
   updateChartHeader();
+  updateSearchOptions();
   if (state.chartType === "dc-treemap") {
     const cellCount = drawDCTreemap(state.root);
     updateMeta({ visibleCount: cellCount });
@@ -827,6 +836,33 @@ function updateChartHeader() {
   }
   els.chartPath.textContent = state.root?.label || "";
   els.drillUpBtn.classList.add("hidden");
+}
+
+function updateSearchOptions() {
+  if (!els.searchOptions || !state.root) return;
+  const activeRoot = state.chartType === "dc-treemap"
+    ? (findById(state.root, state.dcDrillId) || state.root)
+    : state.root;
+  const labels = [];
+  const seen = new Set();
+
+  walk(activeRoot, (item) => {
+    const label = displayLabel(item.label);
+    const key = label.toLowerCase();
+    if (!seen.has(key) && labels.length < SEARCH_OPTION_LIMIT) {
+      seen.add(key);
+      labels.push(label);
+    }
+  });
+
+  els.searchOptions.replaceChildren();
+  labels
+    .sort((a, b) => a.localeCompare(b))
+    .forEach((label) => {
+      const option = document.createElement("option");
+      option.value = label;
+      els.searchOptions.append(option);
+    });
 }
 
 function drillUp() {
