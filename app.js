@@ -13,7 +13,7 @@ const state = {
   settings: {
     breakLabels: false,
     labelLength: 24,
-    cueMode: "tree",
+    cueMode: "simple",
     drawTypes: true,
     displayDistance: 46,
     treeCueLength: 8,
@@ -195,6 +195,7 @@ function bindEvents() {
 
   els.searchInput.addEventListener("input", () => {
     state.search = els.searchInput.value.trim().toLowerCase();
+    applySearchFocus();
     render();
   });
 
@@ -837,6 +838,34 @@ function drillUp() {
   render();
 }
 
+function applySearchFocus() {
+  if (!state.search || !state.root) return;
+  const match = findFirstLabelMatch(state.root, state.search);
+  if (!match) {
+    setStatus(`No match for "${state.search}".`);
+    return;
+  }
+
+  if (state.chartType === "dc-treemap") {
+    const target = match.children.length ? match : match.parent;
+    state.dcDrillId = target && target !== state.root ? target.id : null;
+    state.dcFocusId = match.id;
+    setStatus(`Found ${displayLabel(match.label)}.`);
+    return;
+  }
+
+  state.focusId = match.id;
+  if (state.chartType === "tree") state.treeFocusId = match.id;
+  expandPathTo(match);
+  setStatus(`Focused ${displayLabel(match.label)}.`);
+}
+
+function expandPathTo(item) {
+  pathToRoot(item).forEach((nodeItem) => {
+    nodeItem.expanded = true;
+  });
+}
+
 function drawClassicTreemap(root) {
   const svg = els.treeSvg;
   const width = 1120;
@@ -856,8 +885,9 @@ function drawClassicTreemap(root) {
 
   const group = svgEl("g");
   cells.forEach((cell) => {
+    const match = itemMatchesSearch(cell.item || { label: cell.label, children: [] });
     group.append(svgEl("rect", {
-      class: "classic-treemap-cell",
+      class: `classic-treemap-cell${match ? " match" : ""}`,
       x: cell.x,
       y: cell.y,
       width: Math.max(0, cell.width),
@@ -913,8 +943,9 @@ function drawDCTreemap(root) {
   const group = svgEl("g", { "clip-path": `url(#${clipId})` });
   cells.forEach((cell) => {
     const canDrill = cell.item?.children?.length;
+    const match = itemMatchesSearch(cell.item || { label: cell.label, children: [] });
     const rect = svgEl("rect", {
-      class: `dc-cell${canDrill ? " drillable" : ""}`,
+      class: `dc-cell${canDrill ? " drillable" : ""}${match ? " match" : ""}`,
       x: cell.x,
       y: cell.y,
       width: Math.max(0, cell.width),
@@ -1376,6 +1407,7 @@ function buildClassicTreemapCells(item, rect, depth, maxDepth) {
     if (childRect.width < 1 || childRect.height < 1) return;
     cells.push({
       ...childRect,
+      item: child,
       label: child.label,
       depth,
       color: colorForClassicTreemapCell(child, depth, index),
@@ -1659,6 +1691,14 @@ function findById(root, id) {
   return found;
 }
 
+function findFirstLabelMatch(root, query) {
+  let found = null;
+  walk(root, (item) => {
+    if (!found && item.label.toLowerCase().includes(query)) found = item;
+  });
+  return found;
+}
+
 function maxDepth(root) {
   let depth = 0;
   walk(root, (item) => {
@@ -1670,6 +1710,10 @@ function maxDepth(root) {
 function subtreeMatches(item, query) {
   if (item.label.toLowerCase().includes(query)) return true;
   return item.children.some((child) => subtreeMatches(child, query));
+}
+
+function itemMatchesSearch(item) {
+  return Boolean(state.search && subtreeMatches(item, state.search));
 }
 
 function isAncestorOf(candidate, item) {

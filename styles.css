@@ -407,6 +407,11 @@ h1 {
   stroke-width: 1.2;
 }
 
+.classic-treemap-cell.match {
+  stroke: var(--gold);
+  stroke-width: 3;
+}
+
 .classic-treemap-label {
   pointer-events: none;
   fill: #172033;
@@ -430,6 +435,11 @@ h1 {
   stroke: rgba(255, 255, 255, 0.88);
   stroke-width: 1.2;
   transition: opacity 0.12s ease, stroke-width 0.12s ease;
+}
+
+.dc-cell.match {
+  stroke: var(--gold);
+  stroke-width: 3;
 }
 
 .dc-cell.drillable {
