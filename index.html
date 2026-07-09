@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hierarchical Tree Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">DOI</span>
+          <div>
+            <h1>Hierarchical Tree Visualization</h1>
+            <p>TreeML viewer with degree-of-interest cues</p>
+          </div>
+        </div>
+        <div class="top-actions">
+          <button id="exportBtn" class="button primary" type="button">Export XML</button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar" aria-label="Controls">
+          <section class="panel">
+            <h2>Chart</h2>
+            <div class="chart-tabs" role="tablist" aria-label="Chart type">
+              <button id="treeChartTab" class="chart-tab active" type="button" role="tab" aria-selected="true" data-chart="tree">DOI tree</button>
+              <button id="classicTreemapChartTab" class="chart-tab" type="button" role="tab" aria-selected="false" data-chart="classic-treemap">Treemap</button>
+              <button id="dcTreemapChartTab" class="chart-tab" type="button" role="tab" aria-selected="false" data-chart="dc-treemap">D&amp;C treemap</button>
+            </div>
+            <label class="field" id="doiDatasetField">
+              <span>DOI sample XML</span>
+              <select id="doiDatasetSelect">
+                <option value="">Choose DOI sample</option>
+              </select>
+            </label>
+            <label class="field" id="dcDatasetField">
+              <span>D&amp;C sample XML</span>
+              <select id="dcDatasetSelect">
+                <option value="">Choose D&amp;C sample</option>
+              </select>
+            </label>
+            <label class="field" id="classicTreemapDatasetField">
+              <span>Treemap sample</span>
+              <select id="classicTreemapDatasetSelect">
+                <option value="">Choose Treemap sample</option>
+              </select>
+            </label>
+            <label class="field" id="dcPropertyField">
+              <span>Treemap shape</span>
+              <select id="dcPropertySelect"></select>
+            </label>
+            <label class="button full">
+              <span>Open your XML</span>
+              <input id="xmlFile" type="file" accept=".xml,.tm3,text/xml,text/plain">
+            </label>
+          </section>
+
+          <section class="panel" id="treeViewPanel">
+            <h2>View</h2>
+            <label class="field">
+              <span>Sample view</span>
+              <select id="cueMode">
+                <option value="none">No visual cue</option>
+                <option value="simple">Simple visual cue</option>
+                <option value="tree" selected>Tree visual cue</option>
+                <option value="treemap">Treemap visual cue</option>
+              </select>
+            </label>
+            <label class="field inline">
+              <input id="drawTypes" type="checkbox" checked>
+              <span>Draw node type</span>
+            </label>
+            <label class="field">
+              <span>Display distance</span>
+              <input id="displayDistance" type="range" min="16" max="120" value="46">
+            </label>
+            <label class="field">
+              <span>Tree cue length</span>
+              <input id="treeCueLength" type="number" min="2" max="24" value="8">
+            </label>
+            <label class="field">
+              <span>Maximum image height</span>
+              <input id="maxImageHeight" type="number" min="20" max="240" value="82">
+            </label>
+          </section>
+
+        </aside>
+
+        <section class="viewer">
+          <div class="viewer-toolbar">
+            <label class="search">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Find a node">
+            </label>
+            <div class="viewer-actions">
+              <button id="drillUpBtn" class="button compact hidden" type="button">Up</button>
+              <div class="path" id="chartPath"></div>
+              <div class="meta" id="treeMeta"></div>
+            </div>
+          </div>
+          <div class="canvas-wrap" id="canvasWrap">
+            <svg id="treeSvg" role="img" aria-label="Tree visualization"></svg>
+          </div>
+          <div class="statusbar" id="statusbar">Click a node to focus. Double-click to collapse or expand.</div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

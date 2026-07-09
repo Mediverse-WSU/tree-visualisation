@@ -1,0 +1,2645 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE tree SYSTEM "data/treeml.dtd">
+<tree>
+<declarations>
+<attributeDecl name="name" type="String"/>
+<attributeDecl name="type" type="Integer"/>
+<attributeDecl name="link" type="String"/>
+<attributeDecl name="flag" type="Integer"/>
+</declarations>
+
+<branch>
+	<attribute name="name" value="Patient Events"/>
+	<attribute name="type" value="0"/>
+	<attribute name="link" value=""/>
+	<attribute name="flag" value="0"/>
+	<branch>
+		<attribute name="name" value="Adverse reaction"/>
+		<attribute name="type" value="2"/>
+		<attribute name="link" value="data\Views\appt_comp2.png"/>
+		<attribute name="flag" value="0"/>
+	</branch>
+	<branch>
+		<attribute name="name" value="Adverse drug reaction  (not a medication error/not&#10;preventable)"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Dietary supplements/feedings"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Latex/tapes"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other (for contrast reaction, see Radiology/imaging&#10;test)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Anesthesia event"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Airway management issues"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Difficulty maintaining airway during procedure"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Difficulty or trauma during tracheal intubation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Esophageal intubation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Reintubation, following extubation, in OR or&#10;recovery"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Aspiration"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Awareness during anesthesia"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Injury related to anesthesia"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Dental"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value="data/Views/appt_comp3.png"/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Ocular"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Peripheral nerve"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value="data/Views/tcu_appt_v4.png"/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Malignant hyperthermia"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Problems with anesthesia, medical gas, or other&#10;substance"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Problems with device used in delivery of anesthesia"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Prolonged recovery time"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unplanned use of reversal agents"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Behavioral event"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Assault"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Assault by patient"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Assault by staff member"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Assault by visitor"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Consensual sexual activity"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Contraband/unauthorized objects"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Destruction of property"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Disruptive behavior"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Refusal of therapy"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value="data/Views/tcu_sch_v3d1.png"/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Restraint-related injury/death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Seclusion injury/death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Self-harm or injury"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Sexual assault/rape"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Suicide or suicide attempt"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Threat by patient"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Care coordination/communication"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Access to care problem"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Bed not available"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Delay in transfer"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Delay in treatment"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Inappropriate level of care"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Inappropriate transfer"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Transportation unavailable/delayed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Treatment room not available"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Communication inadequate"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="With other providers WITHIN patient care area"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="With other providers in OTHER patient care areas"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="With other providers in ancillary departments&#10;(e.g., laboratory, pharmacy, radiology)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="With outside providers/agencies"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="With patient or family"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Message handling/response problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Provider not available"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Referral/consult problem"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delay in scheduling"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Delay in service"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Report unavailable/delayed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Complication of Surgery or Anesthesia"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Cardiac/circulatory event"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Cardiac arrest"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Myocardial infarction"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Prolonged hypotension"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Dehiscence, wound/flap/graft failure or disruption"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Gastrointestinal complication"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Abscess"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Bowel obstruction"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Bowel perforation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Pancreatitis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Splenic rupture"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Hemorrhage requiring unexpected transfusion or&#10;return to OR"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Incisional hernia"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Renal/urinary event"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Hematuria"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incontinence"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Nephrolithiasis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Renal failure or insufficiency"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Respiratory failure requiring unplanned support&#10;&lt; 24 hours after procedure"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Prolonged ventilator support"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Reinstitution of ventilator following&#10;discontinuation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unplanned/emergent intubation following&#10;procedure/treatment/test"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Transplant complications"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Anastomotic blockage/stenosis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Anastomotic leak"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Delayed graft function"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Graft-versus-host disease"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Hematoma"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Lymphocele"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Primary graft nonfunction"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Rejection"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Complications of care (unanticipated, nonsurgical)"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Cardiac complication"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Code outside of ICU (Cardiopulmonary arrest)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other cardiac complication (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Deep vein thrombosis (DVT)/pulmonary embolism (PE)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Gastrointestinal bleeding"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Glucose management"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="HYPERglycemia"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="HYPOglycemia"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="IV site complication"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Air embolism"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Extravasation of vesicant drug (for extravasa- tion&#10;of radiologic contrast, see Radiology/imaging test)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Phlebitis, bruising, infiltration"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other IV complication (specify)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Neurologic complication"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Confusional state"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Seizure"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Stroke"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unresponsiveness/loss of consciousness"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other neurologic complication (specify)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Removal of tube or other medical device by patient"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other catheter or tube problem (for self-/unplanned&#10;extubation, see Respiratory care)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Dislodged/removed accidentally"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect placement or use"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Line or tube damaged/broken"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Line or tube occluded/clotted/damaged"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Misconnection (e.g., wrong IV to wrong site/port)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other catheter or tube problem (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Renal failure"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Respiratory complication"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Respiratory distress"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Respiratory failure"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other respiratory complication (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unexpected change in patient status"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Unplanned admission or transfer"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unplanned return to ED in 48 hours requiring&#10;admission"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unplanned surgery"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unplanned transfer to ICU"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unexpected death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unexpected injury (not related to falls or skin&#10;integrity)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Crushing injury"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Dislocations"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Electric shock"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Fractures"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Intracranial injury"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other injuries (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Artificial insemination with wrong donor sperm or&#10;wrong egg"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Injury related to spinal manipulative therapy"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Equipment/device"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Broken item(s)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Disconnected"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Electrical problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Equipment malfunction"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Equipment unavailable/ordered, not received"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Equipment wrong or inadequate"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Medical device problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Operator training or knowledge problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Outdated item(s)/equipment maintenance overdue"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Sterilization problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Used after product recall"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Event related to surgery or invasive procedure"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Event before procedure"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Antibiotics not given per protocol"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Consent missing or incomplete"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Identification missing or incorrect"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Preparation inadequate or wrong"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Procedure canceled or not performed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Procedure delayed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Procedure not ordered"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Universal protocol (time-out) not followed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Air embolus"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Break in sterile technique"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Burn/fire"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Burn"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Operating room fire"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Both burn and operating room fire"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Count incomplete or not done"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Count incorrect"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Instrument fragment"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Needles"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Sponges"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Towels"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Whole instrument"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Foreign body accidentally left in patient"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Guidewire"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Needle"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Sponge"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Towel"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Iatrogenic pneumothorax"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Central line placement"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Mechanical ventilation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other invasive procedure (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Incorrect surgical or invasive procedure"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Incorrect implant because correct implant not&#10;available"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong implant by mistake"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong procedure"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong patient"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong side (L vs R)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong site"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Procedure started and not completed"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unintended blockage, obstruction, or ligation"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unintended laceration or puncture"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unplanned removal of organ"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Fall"/>
+		<attribute name="type" value="2"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+	</branch>
+	<branch>
+		<attribute name="name" value="Food/nutrition"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Delay in tray delivery/nutrition"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Food allergy"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Food/feeding not given"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Food spoiled/expired"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Foreign object in food"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="NPO patient receives tray"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Tube feeding problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong diet/nutrition received or administered"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong/inappropriate items on tray"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Healthcare\associated infection (HAI)"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Antibiotic-associated diarrhea"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Bloodstream infection (BSI)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Central line-associated (CLABSI)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not central line-associated"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Colonization by antibiotic-resistant organism&#10;(e.g., MRSA, VRE)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Pneumonia"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Ventilator-associated (VAP)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not ventilator-associated"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Surgical site infection (SSI)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Organ/space"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Deep incisional primary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Deep incisional secondary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Superficial incisional primary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Superficial incisional secondary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Stage unknown"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Urinary tract infection (UTI)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Catheter-associated (CAUTI)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not catheter-associated"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other type of infection (not involving surgical&#10;site) that developed during admission"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Bone or joint"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Cardiovascular system"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Central nervous system"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Eye, ear, nose, throat, or mouth"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Gastrointestinal"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Lower respiratory tract (other than pneumonia)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Reproductive tract"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Skin or soft tissue"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Systemic"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Laboratory test"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Ordering/transcription error"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Specimen collection"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Specimen labeling"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Transport of specimen"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Specimen processing"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Specimen quality"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Analysis of specimen in the laboratory"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Reporting results/report unavailable"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other laboratory test event (specify)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Maternal"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Amniotic fluid embolism"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Eclampsia"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Hemorrhage requiring transfusion"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Infection"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Chorioamnionitis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Endometritis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Injury to body part or organ"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="3rd- or 4th-degree perineal laceration"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Bladder"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Bowel"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Ureter"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Uterine rupture"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Intrapartum fetal death/stillbirth"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Magnesium toxicity"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Maternal death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other maternal complications"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Cord prolapse"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Postpartum hysterectomy/laparotomy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Retained placenta"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Shoulder dystocia"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Undiagnosed breech in labor"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unsuccessful vaginal operative delivery"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unattended delivery"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Medical records/patient identification"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Consent missing/incomplete (non- procedure)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Incomplete/incorrect chart entry/order entry&#10;information"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Patient identification issues"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Records/chart incomplete"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Records/chart unavailable"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Medication related"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Wrong dosage form (e.g., sustained vs immediate&#10;release)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong dose"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Extra dose"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Missed/omitted dose"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Overdose"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Underdose"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unknown"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong drug or substance"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong duration (of administration or course of&#10;therapy)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong frequency"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong preparation or technique"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong rate (IV)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Too quickly"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Too slowly"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong route"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong strength/concentration"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Too high"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Too low"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong timing"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Too early"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Too late"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Known allergy"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Documented in record but missed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not documented"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unknown/other (specify)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Known drug interaction"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Drug-disease"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Drug-drug"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Drug-food/nutrient"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Monitoring event"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Clinical (laboratory value, vital sign)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Other monitoring event"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Pain management"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Overtreatment"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Undertreatment"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Prescription/refill delayed"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unordered drug given"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Other medication event"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Contaminated drug"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Drug given after recall"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Expired or deteriorated drug"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect patient action (e.g., self-&#10;administration error)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Medication found in room"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Neonatal"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Anoxic or hypoxic encephalopathy"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Birth trauma"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Injury to brachial plexus"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Subdural or cerebral hemorrhage"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Five minute Apgar &lt; 7 and birthweight&gt; 2500&#10;grams"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Infection (e.g., group B strep)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Seizure(s)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Undiagnosed or untreated hyperbilirubinemia"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unexpected neonatal death"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Omission/errors in assessment, diagnosis,&#10;monitoring"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Assessment issues"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delayed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Inaccurate"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incomplete"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not completed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Diagnosis issues"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delayed diagnosis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Diagnosis changed"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect diagnosis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Missed diagnosis"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Monitoring issue or failure to monitor"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Other/miscellaneous"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Abduction of a patient of any age"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Confidentiality disclosure"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Discharge against medical advice (AMA)"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Patient did not sign AMA form"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Patient signed AMA form"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Left before visit completed (ED/outpatient)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Left without being seen (ED/outpatient)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Lost/stolen belongings"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Patient discharged to the wrong person"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Patient missing (potential elopement)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Patient or family complaint"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Privacy inadequate"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Radiology/imaging test"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Contrast extravasation"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Contrast reaction"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Delays, preprocedure or postprocedure"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delay in reporting"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Discrepancy between ED interpretation of x-ray or&#10;EKG and final reading"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Image unavailable or inadequate"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Incorrect isotope or amount administered"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Incorrect reading"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Mislabeled study"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="MRI safety violation"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Not ordered"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Ordered, not performed"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Unanticipated radiation exposure"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Respiratory care"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Incomplete/incorrect treatment"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Medication involved"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Medication not involved"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Missed treatment"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Oxygen/medical gas problem"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Self-/unplanned extubation"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Ventilator settings"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Alarm not audible"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Alarm not set properly"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Settings wrong/changed without authorization"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Skin integrity"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Abrasion/scratch"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Blister"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Bruise/ecchymosis"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Burn (electrical, chemical, thermal)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Irritation/reddening"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Laceration"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Mucosal ulcer"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Pressure ulcer"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Rash"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Skin tear"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Venous stasis ulcer"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Supplies"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Inadequate supplies"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Outdated item(s)"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Supplies damaged/broken"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Supplies ordered, not received"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Supplies ordered; wrong supplies received"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Wrong supplies used"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+	</branch>
+	<branch>
+		<attribute name="name" value="Transfusion"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<branch>
+			<attribute name="name" value="Ordering"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Blood product/compatibility testing not requested"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Blood requested for wrong patient"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Special product need not requested"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong component requested"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Sample collection for compatibility testing"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delay in collecting specimen"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Improperly labeled (wrong nonpatient identifiers)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Mislabeled specimen (wrong patient identifiers)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Mismatch from historical record"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Specimen inadequate"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Specimen label missing, incomplete, or illegible"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong blood in tube"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Blood product dispensing or distribution"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Delay"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Mismatched unit"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not available"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Patient/product information on pickup slip does not&#10;match order"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Special product need not issued"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong component issued"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Blood product administration"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Blood consent missing/incomplete"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Blood not administered"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Blood product administered with incorrect IV fluid"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect sequence of administration of products"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect use of expired or unacceptably stored&#10;products"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Incorrect volume (i.e., number of units or&#10;milliliters)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Units not transfused within time frame per protocol"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong ABO/Rh type transfused"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong patient transfused"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong product transfused (e.g., heterologous vs&#10;autologous blood)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Wrong transfusion rate"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+		<branch>
+			<attribute name="name" value="Suspected transfusion reaction"/>
+			<attribute name="type" value="2"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+		</branch>
+		<branch>
+			<attribute name="name" value="Blood product wasted"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<branch>
+				<attribute name="name" value="Date on product expired"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Not stored according to protocol"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Product returned to blood bank after allowed time"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+			<branch>
+				<attribute name="name" value="Unit returned unusable (e.g., unit spiked)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+			</branch>
+		</branch>
+	</branch>
+</branch>
+</tree>

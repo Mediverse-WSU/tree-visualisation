@@ -1,0 +1,826 @@
+Id	County	Industry	Year	Employees	Annual Payroll ($1000)	Establishments					
+INTEGER	STRING	STRING	INTEGER	INTEGER	INTEGER	INTEGER					
+636	Allegany	"Agricultural Services, Forestry, and Fishing"	1993	1062	1062	72		Maryland	Allegany	"Agricultural Services, Forestry, and Fishing"	1993
+627	Allegany	"Agricultural Services, Forestry, and Fishing"	1994	74	1237	20		Maryland	Allegany	"Agricultural Services, Forestry, and Fishing"	1994
+618	Allegany	"Agricultural Services, Forestry, and Fishing"	1995	91	1326	20		Maryland	Allegany	"Agricultural Services, Forestry, and Fishing"	1995
+609	Allegany	"Agricultural Services, Forestry, and Fishing"	1996	88	1344	19		Maryland	Allegany	"Agricultural Services, Forestry, and Fishing"	1996
+638	Allegany	Construction	1993	22594	22594	805		Maryland	Allegany	Construction	1993
+629	Allegany	Construction	1994	1102	28420	151		Maryland	Allegany	Construction	1994
+620	Allegany	Construction	1995	1058	25328	154		Maryland	Allegany	Construction	1995
+611	Allegany	Construction	1996	1155	33743	156		Maryland	Allegany	Construction	1996
+643	Allegany	"Finance, Insurance, and Real Estate"	1993	23783	23783	1024		Maryland	Allegany	"Finance, Insurance, and Real Estate"	1993
+634	Allegany	"Finance, Insurance, and Real Estate"	1994	943	23402	149		Maryland	Allegany	"Finance, Insurance, and Real Estate"	1994
+625	Allegany	"Finance, Insurance, and Real Estate"	1995	1009	24542	145		Maryland	Allegany	"Finance, Insurance, and Real Estate"	1995
+616	Allegany	"Finance, Insurance, and Real Estate"	1996	1019	26842	147		Maryland	Allegany	"Finance, Insurance, and Real Estate"	1996
+639	Allegany	Manufacturing	1993	127469	127469	4280		Maryland	Allegany	Manufacturing	1993
+630	Allegany	Manufacturing	1994	4057	127294	80		Maryland	Allegany	Manufacturing	1994
+621	Allegany	Manufacturing	1995	4282	133761	77		Maryland	Allegany	Manufacturing	1995
+612	Allegany	Manufacturing	1996	4340	142949	75		Maryland	Allegany	Manufacturing	1996
+637	Allegany	Mining	1993	4330	4330	183		Maryland	Allegany	Mining	1993
+628	Allegany	Mining	1994	187	4221	13		Maryland	Allegany	Mining	1994
+619	Allegany	Mining	1995	249	0	14		Maryland	Allegany	Mining	1995
+610	Allegany	Mining	1996	249	0	12		Maryland	Allegany	Mining	1996
+642	Allegany	Retail Trade	1993	68450	68450	6745		Maryland	Allegany	Retail Trade	1993
+633	Allegany	Retail Trade	1994	6710	70645	571		Maryland	Allegany	Retail Trade	1994
+624	Allegany	Retail Trade	1995	6997	75379	556		Maryland	Allegany	Retail Trade	1995
+615	Allegany	Retail Trade	1996	6995	77277	547		Maryland	Allegany	Retail Trade	1996
+644	Allegany	Services	1993	150016	50016	7561		Maryland	Allegany	Services	1993
+635	Allegany	Services	1994	8	156856	712		Maryland	Allegany	Services	1994
+626	Allegany	Services	1995	7723	166272	722		Maryland	Allegany	Services	1995
+617	Allegany	Services	1996	7694	168987	719		Maryland	Allegany	Services	1996
+640	Allegany	Transportation and Public Utilities	1993	24470	24470	942		Maryland	Allegany	Transportation and Public Utilities	1993
+631	Allegany	Transportation and Public Utilities	1994	989	26112	100		Maryland	Allegany	Transportation and Public Utilities	1994
+622	Allegany	Transportation and Public Utilities	1995	996	26116	102		Maryland	Allegany	Transportation and Public Utilities	1995
+613	Allegany	Transportation and Public Utilities	1996	997	29626	101		Maryland	Allegany	Transportation and Public Utilities	1996
+641	Allegany	Wholesale Trade	1993	52993	52993	1535		Maryland	Allegany	Wholesale Trade	1993
+632	Allegany	Wholesale Trade	1994	1524	56320	99		Maryland	Allegany	Wholesale Trade	1994
+623	Allegany	Wholesale Trade	1995	1249	42120	95		Maryland	Allegany	Wholesale Trade	1995
+614	Allegany	Wholesale Trade	1996	1273	41100	87		Maryland	Allegany	Wholesale Trade	1996
+325	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1993	1433	32098	183		Maryland	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1993
+334	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1994	1705	42078	195		Maryland	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1994
+343	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1995	2042	45960	203		Maryland	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1995
+352	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1996	2986	94549	207		Maryland	Anne Arundel	"Agricultural Services, Forestry, and Fishing"	1996
+327	Anne Arundel	Construction	1993	9699	258483	1502		Maryland	Anne Arundel	Construction	1993
+336	Anne Arundel	Construction	1994	10116	282817	1532		Maryland	Anne Arundel	Construction	1994
+345	Anne Arundel	Construction	1995	11416	309259	1586		Maryland	Anne Arundel	Construction	1995
+354	Anne Arundel	Construction	1996	11208	335191	1589		Maryland	Anne Arundel	Construction	1996
+332	Anne Arundel	"Finance, Insurance, and Real Estate"	1993	7933	232071	890		Maryland	Anne Arundel	"Finance, Insurance, and Real Estate"	1993
+341	Anne Arundel	"Finance, Insurance, and Real Estate"	1994	8806	255784	907		Maryland	Anne Arundel	"Finance, Insurance, and Real Estate"	1994
+350	Anne Arundel	"Finance, Insurance, and Real Estate"	1995	8427	250819	948		Maryland	Anne Arundel	"Finance, Insurance, and Real Estate"	1995
+359	Anne Arundel	"Finance, Insurance, and Real Estate"	1996	8460	276682	975		Maryland	Anne Arundel	"Finance, Insurance, and Real Estate"	1996
+328	Anne Arundel	Manufacturing	1993	21186	880471	376		Maryland	Anne Arundel	Manufacturing	1993
+337	Anne Arundel	Manufacturing	1994	19650	935854	376		Maryland	Anne Arundel	Manufacturing	1994
+346	Anne Arundel	Manufacturing	1995	18286	882461	373		Maryland	Anne Arundel	Manufacturing	1995
+355	Anne Arundel	Manufacturing	1996	18053	776049	384		Maryland	Anne Arundel	Manufacturing	1996
+326	Anne Arundel	Mining	1993	118	3612	11		Maryland	Anne Arundel	Mining	1993
+335	Anne Arundel	Mining	1994	109	3668	10		Maryland	Anne Arundel	Mining	1994
+344	Anne Arundel	Mining	1995	131	3133	7		Maryland	Anne Arundel	Mining	1995
+353	Anne Arundel	Mining	1996	83	2788	9		Maryland	Anne Arundel	Mining	1996
+331	Anne Arundel	Retail Trade	1993	37342	524251	2626		Maryland	Anne Arundel	Retail Trade	1993
+340	Anne Arundel	Retail Trade	1994	40074	569784	2688		Maryland	Anne Arundel	Retail Trade	1994
+349	Anne Arundel	Retail Trade	1995	42538	608353	2673		Maryland	Anne Arundel	Retail Trade	1995
+358	Anne Arundel	Retail Trade	1996	42471	617764	2677		Maryland	Anne Arundel	Retail Trade	1996
+333	Anne Arundel	Services	1993	44754	1052375	3896		Maryland	Anne Arundel	Services	1993
+342	Anne Arundel	Services	1994	46201	1108856	4044		Maryland	Anne Arundel	Services	1994
+351	Anne Arundel	Services	1995	49568	1256996	4200		Maryland	Anne Arundel	Services	1995
+360	Anne Arundel	Services	1996	51189	1345948	4344		Maryland	Anne Arundel	Services	1996
+329	Anne Arundel	Transportation and Public Utilities	1993	9825	305163	551		Maryland	Anne Arundel	Transportation and Public Utilities	1993
+338	Anne Arundel	Transportation and Public Utilities	1994	12086	414567	583		Maryland	Anne Arundel	Transportation and Public Utilities	1994
+347	Anne Arundel	Transportation and Public Utilities	1995	12659	416227	597		Maryland	Anne Arundel	Transportation and Public Utilities	1995
+356	Anne Arundel	Transportation and Public Utilities	1996	12688	448828	611		Maryland	Anne Arundel	Transportation and Public Utilities	1996
+330	Anne Arundel	Wholesale Trade	1993	9814	315697	697		Maryland	Anne Arundel	Wholesale Trade	1993
+339	Anne Arundel	Wholesale Trade	1994	9643	335637	723		Maryland	Anne Arundel	Wholesale Trade	1994
+348	Anne Arundel	Wholesale Trade	1995	10473	368312	721		Maryland	Anne Arundel	Wholesale Trade	1995
+357	Anne Arundel	Wholesale Trade	1996	10604	388175	749		Maryland	Anne Arundel	Wholesale Trade	1996
+780	Baltimore	"Agricultural Services, Forestry, and Fishing"	1993	1789	31204	359		Maryland	Baltimore	"Agricultural Services, Forestry, and Fishing"	1993
+771	Baltimore	"Agricultural Services, Forestry, and Fishing"	1994	1607	33761	345		Maryland	Baltimore	"Agricultural Services, Forestry, and Fishing"	1994
+762	Baltimore	"Agricultural Services, Forestry, and Fishing"	1995	1753	35016	362		Maryland	Baltimore	"Agricultural Services, Forestry, and Fishing"	1995
+753	Baltimore	"Agricultural Services, Forestry, and Fishing"	1996	2216	41809	358		Maryland	Baltimore	"Agricultural Services, Forestry, and Fishing"	1996
+782	Baltimore	Construction	1993	17862	510191	2043		Maryland	Baltimore	Construction	1993
+773	Baltimore	Construction	1994	18242	553007	2042		Maryland	Baltimore	Construction	1994
+764	Baltimore	Construction	1995	20377	604729	1989		Maryland	Baltimore	Construction	1995
+755	Baltimore	Construction	1996	19028	597740	1985		Maryland	Baltimore	Construction	1996
+787	Baltimore	"Finance, Insurance, and Real Estate"	1993	26548	822024	1969		Maryland	Baltimore	"Finance, Insurance, and Real Estate"	1993
+778	Baltimore	"Finance, Insurance, and Real Estate"	1994	27898	861828	2002		Maryland	Baltimore	"Finance, Insurance, and Real Estate"	1994
+769	Baltimore	"Finance, Insurance, and Real Estate"	1995	26790	895758	2015		Maryland	Baltimore	"Finance, Insurance, and Real Estate"	1995
+760	Baltimore	"Finance, Insurance, and Real Estate"	1996	26970	951161	2105		Maryland	Baltimore	"Finance, Insurance, and Real Estate"	1996
+783	Baltimore	Manufacturing	1993	39715	1542851	604		Maryland	Baltimore	Manufacturing	1993
+774	Baltimore	Manufacturing	1994	36290	1452414	594		Maryland	Baltimore	Manufacturing	1994
+765	Baltimore	Manufacturing	1995	38552	1549434	610		Maryland	Baltimore	Manufacturing	1995
+756	Baltimore	Manufacturing	1996	39718	1571467	607		Maryland	Baltimore	Manufacturing	1996
+781	Baltimore	Mining	1993	304	9944	14		Maryland	Baltimore	Mining	1993
+772	Baltimore	Mining	1994	262	9171	14		Maryland	Baltimore	Mining	1994
+763	Baltimore	Mining	1995	310	10134	14		Maryland	Baltimore	Mining	1995
+754	Baltimore	Mining	1996	299	10170	15		Maryland	Baltimore	Mining	1996
+786	Baltimore	Retail Trade	1993	68625	954560	4547		Maryland	Baltimore	Retail Trade	1993
+777	Baltimore	Retail Trade	1994	68720	990236	4535		Maryland	Baltimore	Retail Trade	1994
+768	Baltimore	Retail Trade	1995	71403	1040498	4526		Maryland	Baltimore	Retail Trade	1995
+759	Baltimore	Retail Trade	1996	72693	1100639	4486		Maryland	Baltimore	Retail Trade	1996
+788	Baltimore	Services	1993	99289	2263454	7276		Maryland	Baltimore	Services	1993
+779	Baltimore	Services	1994	105640	2619278	7426		Maryland	Baltimore	Services	1994
+770	Baltimore	Services	1995	110031	2907060	7596		Maryland	Baltimore	Services	1995
+761	Baltimore	Services	1996	107685	2794998	7810		Maryland	Baltimore	Services	1996
+784	Baltimore	Transportation and Public Utilities	1993	11214	320888	623		Maryland	Baltimore	Transportation and Public Utilities	1993
+775	Baltimore	Transportation and Public Utilities	1994	12482	400749	639		Maryland	Baltimore	Transportation and Public Utilities	1994
+766	Baltimore	Transportation and Public Utilities	1995	14189	445346	656		Maryland	Baltimore	Transportation and Public Utilities	1995
+757	Baltimore	Transportation and Public Utilities	1996	14157	441175	648		Maryland	Baltimore	Transportation and Public Utilities	1996
+785	Baltimore	Wholesale Trade	1993	17803	552954	1282		Maryland	Baltimore	Wholesale Trade	1993
+776	Baltimore	Wholesale Trade	1994	17396	551858	1251		Maryland	Baltimore	Wholesale Trade	1994
+767	Baltimore	Wholesale Trade	1995	17376	590120	1273		Maryland	Baltimore	Wholesale Trade	1995
+758	Baltimore	Wholesale Trade	1996	15762	598725	1256		Maryland	Baltimore	Wholesale Trade	1996
+361	Calvert	"Agricultural Services, Forestry, and Fishing"	1993	106	1355	27		Maryland	Calvert	"Agricultural Services, Forestry, and Fishing"	1993
+369	Calvert	"Agricultural Services, Forestry, and Fishing"	1994	99	1787	31		Maryland	Calvert	"Agricultural Services, Forestry, and Fishing"	1994
+377	Calvert	"Agricultural Services, Forestry, and Fishing"	1995	126	2214	30		Maryland	Calvert	"Agricultural Services, Forestry, and Fishing"	1995
+385	Calvert	"Agricultural Services, Forestry, and Fishing"	1996	125	2075	32		Maryland	Calvert	"Agricultural Services, Forestry, and Fishing"	1996
+362	Calvert	Construction	1993	1432	33244	272		Maryland	Calvert	Construction	1993
+370	Calvert	Construction	1994	1561	37679	297		Maryland	Calvert	Construction	1994
+378	Calvert	Construction	1995	1572	36930	297		Maryland	Calvert	Construction	1995
+386	Calvert	Construction	1996	1564	39805	328		Maryland	Calvert	Construction	1996
+367	Calvert	"Finance, Insurance, and Real Estate"	1993	400	9966	100		Maryland	Calvert	"Finance, Insurance, and Real Estate"	1993
+375	Calvert	"Finance, Insurance, and Real Estate"	1994	427	9580	98		Maryland	Calvert	"Finance, Insurance, and Real Estate"	1994
+383	Calvert	"Finance, Insurance, and Real Estate"	1995	433	10238	98		Maryland	Calvert	"Finance, Insurance, and Real Estate"	1995
+391	Calvert	"Finance, Insurance, and Real Estate"	1996	431	10343	105		Maryland	Calvert	"Finance, Insurance, and Real Estate"	1996
+363	Calvert	Manufacturing	1993	461	13088	44		Maryland	Calvert	Manufacturing	1993
+371	Calvert	Manufacturing	1994	473	11663	38		Maryland	Calvert	Manufacturing	1994
+379	Calvert	Manufacturing	1995	476	11737	36		Maryland	Calvert	Manufacturing	1995
+387	Calvert	Manufacturing	1996	450	11041	39		Maryland	Calvert	Manufacturing	1996
+366	Calvert	Retail Trade	1993	3213	41035	246		Maryland	Calvert	Retail Trade	1993
+374	Calvert	Retail Trade	1994	3323	44151	252		Maryland	Calvert	Retail Trade	1994
+382	Calvert	Retail Trade	1995	3715	48939	267		Maryland	Calvert	Retail Trade	1995
+390	Calvert	Retail Trade	1996	3524	49811	266		Maryland	Calvert	Retail Trade	1996
+368	Calvert	Services	1993	3307	65516	372		Maryland	Calvert	Services	1993
+376	Calvert	Services	1994	3517	71042	390		Maryland	Calvert	Services	1994
+384	Calvert	Services	1995	3883	80027	407		Maryland	Calvert	Services	1995
+392	Calvert	Services	1996	4258	91333	445		Maryland	Calvert	Services	1996
+364	Calvert	Transportation and Public Utilities	1993	2272	97866	90		Maryland	Calvert	Transportation and Public Utilities	1993
+372	Calvert	Transportation and Public Utilities	1994	2213	106442	89		Maryland	Calvert	Transportation and Public Utilities	1994
+380	Calvert	Transportation and Public Utilities	1995	2222	102164	89		Maryland	Calvert	Transportation and Public Utilities	1995
+388	Calvert	Transportation and Public Utilities	1996	2226	129890	87		Maryland	Calvert	Transportation and Public Utilities	1996
+365	Calvert	Wholesale Trade	1993	203	3412	22		Maryland	Calvert	Wholesale Trade	1993
+373	Calvert	Wholesale Trade	1994	196	4079	23		Maryland	Calvert	Wholesale Trade	1994
+381	Calvert	Wholesale Trade	1995	235	5270	29		Maryland	Calvert	Wholesale Trade	1995
+389	Calvert	Wholesale Trade	1996	277	6728	38		Maryland	Calvert	Wholesale Trade	1996
+172	Caroline	"Agricultural Services, Forestry, and Fishing"	1993	0	0	9		Maryland	Caroline	"Agricultural Services, Forestry, and Fishing"	1993
+163	Caroline	"Agricultural Services, Forestry, and Fishing"	1994	22	464	11		Maryland	Caroline	"Agricultural Services, Forestry, and Fishing"	1994
+154	Caroline	"Agricultural Services, Forestry, and Fishing"	1995	0	0	11		Maryland	Caroline	"Agricultural Services, Forestry, and Fishing"	1995
+145	Caroline	"Agricultural Services, Forestry, and Fishing"	1996	0	0	15		Maryland	Caroline	"Agricultural Services, Forestry, and Fishing"	1996
+174	Caroline	Construction	1993	383	8192	97		Maryland	Caroline	Construction	1993
+165	Caroline	Construction	1994	410	9270	100		Maryland	Caroline	Construction	1994
+156	Caroline	Construction	1995	476	10075	107		Maryland	Caroline	Construction	1995
+147	Caroline	Construction	1996	541	11473	111		Maryland	Caroline	Construction	1996
+179	Caroline	"Finance, Insurance, and Real Estate"	1993	244	7088	45		Maryland	Caroline	"Finance, Insurance, and Real Estate"	1993
+170	Caroline	"Finance, Insurance, and Real Estate"	1994	242	5825	42		Maryland	Caroline	"Finance, Insurance, and Real Estate"	1994
+161	Caroline	"Finance, Insurance, and Real Estate"	1995	234	5571	47		Maryland	Caroline	"Finance, Insurance, and Real Estate"	1995
+152	Caroline	"Finance, Insurance, and Real Estate"	1996	0	0	43		Maryland	Caroline	"Finance, Insurance, and Real Estate"	1996
+175	Caroline	Manufacturing	1993	1265	26193	33		Maryland	Caroline	Manufacturing	1993
+166	Caroline	Manufacturing	1994	1352	28463	31		Maryland	Caroline	Manufacturing	1994
+157	Caroline	Manufacturing	1995	1270	27339	30		Maryland	Caroline	Manufacturing	1995
+148	Caroline	Manufacturing	1996	1231	29400	30		Maryland	Caroline	Manufacturing	1996
+173	Caroline	Mining	1993	0	0	0		Maryland	Caroline	Mining	1993
+164	Caroline	Mining	1994	0	0	0		Maryland	Caroline	Mining	1994
+155	Caroline	Mining	1995	0	0	0		Maryland	Caroline	Mining	1995
+146	Caroline	Mining	1996	0	0	0		Maryland	Caroline	Mining	1996
+178	Caroline	Retail Trade	1993	995	12837	126		Maryland	Caroline	Retail Trade	1993
+169	Caroline	Retail Trade	1994	1042	14188	120		Maryland	Caroline	Retail Trade	1994
+160	Caroline	Retail Trade	1995	1150	14961	120		Maryland	Caroline	Retail Trade	1995
+151	Caroline	Retail Trade	1996	1212	15486	122		Maryland	Caroline	Retail Trade	1996
+180	Caroline	Services	1993	1486	20285	157		Maryland	Caroline	Services	1993
+171	Caroline	Services	1994	1455	21728	153		Maryland	Caroline	Services	1994
+162	Caroline	Services	1995	1692	27402	150		Maryland	Caroline	Services	1995
+153	Caroline	Services	1996	1399	23567	143		Maryland	Caroline	Services	1996
+176	Caroline	Transportation and Public Utilities	1993	965	22352	38		Maryland	Caroline	Transportation and Public Utilities	1993
+167	Caroline	Transportation and Public Utilities	1994	927	25100	38		Maryland	Caroline	Transportation and Public Utilities	1994
+158	Caroline	Transportation and Public Utilities	1995	784	24185	40		Maryland	Caroline	Transportation and Public Utilities	1995
+149	Caroline	Transportation and Public Utilities	1996	931	27679	47		Maryland	Caroline	Transportation and Public Utilities	1996
+177	Caroline	Wholesale Trade	1993	306	7392	39		Maryland	Caroline	Wholesale Trade	1993
+168	Caroline	Wholesale Trade	1994	277	7691	37		Maryland	Caroline	Wholesale Trade	1994
+159	Caroline	Wholesale Trade	1995	294	6803	38		Maryland	Caroline	Wholesale Trade	1995
+150	Caroline	Wholesale Trade	1996	365	10403	36		Maryland	Caroline	Wholesale Trade	1996
+744	Carroll	"Agricultural Services, Forestry, and Fishing"	1993	516	8983	122		Maryland	Carroll	"Agricultural Services, Forestry, and Fishing"	1993
+735	Carroll	"Agricultural Services, Forestry, and Fishing"	1994	518	10045	131		Maryland	Carroll	"Agricultural Services, Forestry, and Fishing"	1994
+726	Carroll	"Agricultural Services, Forestry, and Fishing"	1995	566	10571	130		Maryland	Carroll	"Agricultural Services, Forestry, and Fishing"	1995
+717	Carroll	"Agricultural Services, Forestry, and Fishing"	1996	557	10626	119		Maryland	Carroll	"Agricultural Services, Forestry, and Fishing"	1996
+746	Carroll	Construction	1993	4671	117226	799		Maryland	Carroll	Construction	1993
+737	Carroll	Construction	1994	5084	122720	845		Maryland	Carroll	Construction	1994
+728	Carroll	Construction	1995	5261	126876	831		Maryland	Carroll	Construction	1995
+719	Carroll	Construction	1996	4686	123715	794		Maryland	Carroll	Construction	1996
+751	Carroll	"Finance, Insurance, and Real Estate"	1993	1604	36037	237		Maryland	Carroll	"Finance, Insurance, and Real Estate"	1993
+742	Carroll	"Finance, Insurance, and Real Estate"	1994	1517	35424	252		Maryland	Carroll	"Finance, Insurance, and Real Estate"	1994
+733	Carroll	"Finance, Insurance, and Real Estate"	1995	1653	39639	261		Maryland	Carroll	"Finance, Insurance, and Real Estate"	1995
+724	Carroll	"Finance, Insurance, and Real Estate"	1996	1713	44065	264		Maryland	Carroll	"Finance, Insurance, and Real Estate"	1996
+747	Carroll	Manufacturing	1993	5787	149599	128		Maryland	Carroll	Manufacturing	1993
+738	Carroll	Manufacturing	1994	6244	169815	125		Maryland	Carroll	Manufacturing	1994
+729	Carroll	Manufacturing	1995	6501	176327	134		Maryland	Carroll	Manufacturing	1995
+720	Carroll	Manufacturing	1996	6182	184788	143		Maryland	Carroll	Manufacturing	1996
+745	Carroll	Mining	1993	0	0	1		Maryland	Carroll	Mining	1993
+736	Carroll	Mining	1994	99	0	1		Maryland	Carroll	Mining	1994
+727	Carroll	Mining	1995	99	0	2		Maryland	Carroll	Mining	1995
+718	Carroll	Mining	1996	0	0	1		Maryland	Carroll	Mining	1996
+750	Carroll	Retail Trade	1993	9779	115598	785		Maryland	Carroll	Retail Trade	1993
+741	Carroll	Retail Trade	1994	9996	124665	789		Maryland	Carroll	Retail Trade	1994
+732	Carroll	Retail Trade	1995	10194	126922	804		Maryland	Carroll	Retail Trade	1995
+723	Carroll	Retail Trade	1996	10257	128783	778		Maryland	Carroll	Retail Trade	1996
+752	Carroll	Services	1993	10632	184853	1061		Maryland	Carroll	Services	1993
+743	Carroll	Services	1994	10988	199032	1076		Maryland	Carroll	Services	1994
+734	Carroll	Services	1995	11585	211033	1149		Maryland	Carroll	Services	1995
+725	Carroll	Services	1996	11746	220770	1192		Maryland	Carroll	Services	1996
+748	Carroll	Transportation and Public Utilities	1993	956	19939	149		Maryland	Carroll	Transportation and Public Utilities	1993
+739	Carroll	Transportation and Public Utilities	1994	1076	27733	155		Maryland	Carroll	Transportation and Public Utilities	1994
+730	Carroll	Transportation and Public Utilities	1995	1161	26146	169		Maryland	Carroll	Transportation and Public Utilities	1995
+721	Carroll	Transportation and Public Utilities	1996	1200	29204	165		Maryland	Carroll	Transportation and Public Utilities	1996
+749	Carroll	Wholesale Trade	1993	2450	59640	175		Maryland	Carroll	Wholesale Trade	1993
+740	Carroll	Wholesale Trade	1994	1683	43422	180		Maryland	Carroll	Wholesale Trade	1994
+731	Carroll	Wholesale Trade	1995	1644	43030	192		Maryland	Carroll	Wholesale Trade	1995
+722	Carroll	Wholesale Trade	1996	1503	40939	189		Maryland	Carroll	Wholesale Trade	1996
+316	Cecil	"Agricultural Services, Forestry, and Fishing"	1993	194	2575	34		Maryland	Cecil	"Agricultural Services, Forestry, and Fishing"	1993
+307	Cecil	"Agricultural Services, Forestry, and Fishing"	1994	136	2444	36		Maryland	Cecil	"Agricultural Services, Forestry, and Fishing"	1994
+298	Cecil	"Agricultural Services, Forestry, and Fishing"	1995	160	2647	37		Maryland	Cecil	"Agricultural Services, Forestry, and Fishing"	1995
+289	Cecil	"Agricultural Services, Forestry, and Fishing"	1996	189	3377	45		Maryland	Cecil	"Agricultural Services, Forestry, and Fishing"	1996
+318	Cecil	Construction	1993	1106	20262	240		Maryland	Cecil	Construction	1993
+309	Cecil	Construction	1994	1017	22217	244		Maryland	Cecil	Construction	1994
+300	Cecil	Construction	1995	1167	21469	249		Maryland	Cecil	Construction	1995
+291	Cecil	Construction	1996	1015	21827	252		Maryland	Cecil	Construction	1996
+323	Cecil	"Finance, Insurance, and Real Estate"	1993	544	12431	96		Maryland	Cecil	"Finance, Insurance, and Real Estate"	1993
+314	Cecil	"Finance, Insurance, and Real Estate"	1994	555	12802	104		Maryland	Cecil	"Finance, Insurance, and Real Estate"	1994
+305	Cecil	"Finance, Insurance, and Real Estate"	1995	600	13570	119		Maryland	Cecil	"Finance, Insurance, and Real Estate"	1995
+296	Cecil	"Finance, Insurance, and Real Estate"	1996	667	15881	118		Maryland	Cecil	"Finance, Insurance, and Real Estate"	1996
+319	Cecil	Manufacturing	1993	3292	102253	61		Maryland	Cecil	Manufacturing	1993
+310	Cecil	Manufacturing	1994	2790	89447	57		Maryland	Cecil	Manufacturing	1994
+301	Cecil	Manufacturing	1995	3193	104448	57		Maryland	Cecil	Manufacturing	1995
+292	Cecil	Manufacturing	1996	2886	109505	59		Maryland	Cecil	Manufacturing	1996
+317	Cecil	Mining	1993	127	4180	5		Maryland	Cecil	Mining	1993
+308	Cecil	Mining	1994	90	3572	3		Maryland	Cecil	Mining	1994
+299	Cecil	Mining	1995	95	3872	4		Maryland	Cecil	Mining	1995
+290	Cecil	Mining	1996	134	4768	6		Maryland	Cecil	Mining	1996
+322	Cecil	Retail Trade	1993	4671	58515	406		Maryland	Cecil	Retail Trade	1993
+313	Cecil	Retail Trade	1994	4940	62263	401		Maryland	Cecil	Retail Trade	1994
+304	Cecil	Retail Trade	1995	5085	64509	394		Maryland	Cecil	Retail Trade	1995
+295	Cecil	Retail Trade	1996	4760	67571	400		Maryland	Cecil	Retail Trade	1996
+324	Cecil	Services	1993	4965	110824	452		Maryland	Cecil	Services	1993
+315	Cecil	Services	1994	5025	121502	475		Maryland	Cecil	Services	1994
+306	Cecil	Services	1995	5079	126422	462		Maryland	Cecil	Services	1995
+297	Cecil	Services	1996	5282	14728	472		Maryland	Cecil	Services	1996
+320	Cecil	Transportation and Public Utilities	1993	930	29911	98		Maryland	Cecil	Transportation and Public Utilities	1993
+311	Cecil	Transportation and Public Utilities	1994	989	32710	107		Maryland	Cecil	Transportation and Public Utilities	1994
+302	Cecil	Transportation and Public Utilities	1995	116	31722	111		Maryland	Cecil	Transportation and Public Utilities	1995
+293	Cecil	Transportation and Public Utilities	1996	1025	33662	121		Maryland	Cecil	Transportation and Public Utilities	1996
+321	Cecil	Wholesale Trade	1993	484	2644	60		Maryland	Cecil	Wholesale Trade	1993
+312	Cecil	Wholesale Trade	1994	550	15790	60		Maryland	Cecil	Wholesale Trade	1994
+303	Cecil	Wholesale Trade	1995	659	17789	61		Maryland	Cecil	Wholesale Trade	1995
+294	Cecil	Wholesale Trade	1996	691	19234	70		Maryland	Cecil	Wholesale Trade	1996
+393	Charles	"Agricultural Services, Forestry, and Fishing"	1993	133	2357	36		Maryland	Charles	"Agricultural Services, Forestry, and Fishing"	1993
+402	Charles	"Agricultural Services, Forestry, and Fishing"	1994	130	2412	30		Maryland	Charles	"Agricultural Services, Forestry, and Fishing"	1994
+411	Charles	"Agricultural Services, Forestry, and Fishing"	1995	149	2523	33		Maryland	Charles	"Agricultural Services, Forestry, and Fishing"	1995
+420	Charles	"Agricultural Services, Forestry, and Fishing"	1996	174	3146	43		Maryland	Charles	"Agricultural Services, Forestry, and Fishing"	1996
+395	Charles	Construction	1993	2582	64610	381		Maryland	Charles	Construction	1993
+404	Charles	Construction	1994	2587	72051	407		Maryland	Charles	Construction	1994
+413	Charles	Construction	1995	3144	79804	424		Maryland	Charles	Construction	1995
+422	Charles	Construction	1996	2615	74558	424		Maryland	Charles	Construction	1996
+400	Charles	"Finance, Insurance, and Real Estate"	1993	1230	36001	186		Maryland	Charles	"Finance, Insurance, and Real Estate"	1993
+409	Charles	"Finance, Insurance, and Real Estate"	1994	1289	35166	187		Maryland	Charles	"Finance, Insurance, and Real Estate"	1994
+418	Charles	"Finance, Insurance, and Real Estate"	1995	1160	32062	194		Maryland	Charles	"Finance, Insurance, and Real Estate"	1995
+427	Charles	"Finance, Insurance, and Real Estate"	1996	1254	37270	199		Maryland	Charles	"Finance, Insurance, and Real Estate"	1996
+396	Charles	Manufacturing	1993	1407	39853	62		Maryland	Charles	Manufacturing	1993
+405	Charles	Manufacturing	1994	1376	36638	64		Maryland	Charles	Manufacturing	1994
+414	Charles	Manufacturing	1995	1455	43791	68		Maryland	Charles	Manufacturing	1995
+423	Charles	Manufacturing	1996	1486	46181	60		Maryland	Charles	Manufacturing	1996
+394	Charles	Mining	1993	198	5708	5		Maryland	Charles	Mining	1993
+403	Charles	Mining	1994	190	6293	4		Maryland	Charles	Mining	1994
+412	Charles	Mining	1995	138	3337	4		Maryland	Charles	Mining	1995
+421	Charles	Mining	1996	73	3685	5		Maryland	Charles	Mining	1996
+399	Charles	Retail Trade	1993	9647	133516	636		Maryland	Charles	Retail Trade	1993
+408	Charles	Retail Trade	1994	10545	146126	638		Maryland	Charles	Retail Trade	1994
+417	Charles	Retail Trade	1995	10827	151386	642		Maryland	Charles	Retail Trade	1995
+426	Charles	Retail Trade	1996	10742	154012	642		Maryland	Charles	Retail Trade	1996
+401	Charles	Services	1993	6929	138914	753		Maryland	Charles	Services	1993
+410	Charles	Services	1994	7226	141611	744		Maryland	Charles	Services	1994
+419	Charles	Services	1995	7172	157823	745		Maryland	Charles	Services	1995
+428	Charles	Services	1996	7594	171898	804		Maryland	Charles	Services	1996
+397	Charles	Transportation and Public Utilities	1993	1351	39898	93		Maryland	Charles	Transportation and Public Utilities	1993
+406	Charles	Transportation and Public Utilities	1994	1452	45522	98		Maryland	Charles	Transportation and Public Utilities	1994
+415	Charles	Transportation and Public Utilities	1995	1612	49085	104		Maryland	Charles	Transportation and Public Utilities	1995
+424	Charles	Transportation and Public Utilities	1996	1699	51345	103		Maryland	Charles	Transportation and Public Utilities	1996
+398	Charles	Wholesale Trade	1993	929	27118	89		Maryland	Charles	Wholesale Trade	1993
+407	Charles	Wholesale Trade	1994	1076	28933	95		Maryland	Charles	Wholesale Trade	1994
+416	Charles	Wholesale Trade	1995	1146	31363	94		Maryland	Charles	Wholesale Trade	1995
+425	Charles	Wholesale Trade	1996	1324	39466	105		Maryland	Charles	Wholesale Trade	1996
+136	Dorchester	"Agricultural Services, Forestry, and Fishing"	1993	54	1229	10		Maryland	Dorchester	"Agricultural Services, Forestry, and Fishing"	1993
+127	Dorchester	"Agricultural Services, Forestry, and Fishing"	1994	63	1379	13		Maryland	Dorchester	"Agricultural Services, Forestry, and Fishing"	1994
+118	Dorchester	"Agricultural Services, Forestry, and Fishing"	1995	75	1686	13		Maryland	Dorchester	"Agricultural Services, Forestry, and Fishing"	1995
+109	Dorchester	"Agricultural Services, Forestry, and Fishing"	1996	78	1625	15		Maryland	Dorchester	"Agricultural Services, Forestry, and Fishing"	1996
+138	Dorchester	Construction	1993	541	10824	80		Maryland	Dorchester	Construction	1993
+129	Dorchester	Construction	1994	427	10234	85		Maryland	Dorchester	Construction	1994
+120	Dorchester	Construction	1995	530	11488	88		Maryland	Dorchester	Construction	1995
+111	Dorchester	Construction	1996	562	12003	82		Maryland	Dorchester	Construction	1996
+143	Dorchester	"Finance, Insurance, and Real Estate"	1993	260	5971	56		Maryland	Dorchester	"Finance, Insurance, and Real Estate"	1993
+134	Dorchester	"Finance, Insurance, and Real Estate"	1994	292	6531	59		Maryland	Dorchester	"Finance, Insurance, and Real Estate"	1994
+125	Dorchester	"Finance, Insurance, and Real Estate"	1995	289	6744	61		Maryland	Dorchester	"Finance, Insurance, and Real Estate"	1995
+116	Dorchester	"Finance, Insurance, and Real Estate"	1996	281	6641	56		Maryland	Dorchester	"Finance, Insurance, and Real Estate"	1996
+139	Dorchester	Manufacturing	1993	3509	77636	51		Maryland	Dorchester	Manufacturing	1993
+130	Dorchester	Manufacturing	1994	3435	80680	56		Maryland	Dorchester	Manufacturing	1994
+121	Dorchester	Manufacturing	1995	3303	78705	59		Maryland	Dorchester	Manufacturing	1995
+112	Dorchester	Manufacturing	1996	3376	87626	59		Maryland	Dorchester	Manufacturing	1996
+137	Dorchester	Mining	1993	19	0	2		Maryland	Dorchester	Mining	1993
+128	Dorchester	Mining	1994	19	0	1		Maryland	Dorchester	Mining	1994
+119	Dorchester	Mining	1995	19	0	1		Maryland	Dorchester	Mining	1995
+110	Dorchester	Mining	1996	19	0	1		Maryland	Dorchester	Mining	1996
+142	Dorchester	Retail Trade	1993	1654	19625	203		Maryland	Dorchester	Retail Trade	1993
+133	Dorchester	Retail Trade	1994	1823	21024	200		Maryland	Dorchester	Retail Trade	1994
+124	Dorchester	Retail Trade	1995	1906	23258	190		Maryland	Dorchester	Retail Trade	1995
+115	Dorchester	Retail Trade	1996	2161	24839	188		Maryland	Dorchester	Retail Trade	1996
+144	Dorchester	Services	1993	2441	45493	237		Maryland	Dorchester	Services	1993
+135	Dorchester	Services	1994	2271	46489	242		Maryland	Dorchester	Services	1994
+126	Dorchester	Services	1995	2368	49423	239		Maryland	Dorchester	Services	1995
+117	Dorchester	Services	1996	2509	49479	238		Maryland	Dorchester	Services	1996
+140	Dorchester	Transportation and Public Utilities	1993	488	14541	45		Maryland	Dorchester	Transportation and Public Utilities	1993
+131	Dorchester	Transportation and Public Utilities	1994	571	16886	49		Maryland	Dorchester	Transportation and Public Utilities	1994
+122	Dorchester	Transportation and Public Utilities	1995	587	15324	48		Maryland	Dorchester	Transportation and Public Utilities	1995
+113	Dorchester	Transportation and Public Utilities	1996	578	14265	55		Maryland	Dorchester	Transportation and Public Utilities	1996
+141	Dorchester	Wholesale Trade	1993	501	12773	61		Maryland	Dorchester	Wholesale Trade	1993
+132	Dorchester	Wholesale Trade	1994	623	12295	6		Maryland	Dorchester	Wholesale Trade	1994
+123	Dorchester	Wholesale Trade	1995	466	10469	60		Maryland	Dorchester	Wholesale Trade	1995
+114	Dorchester	Wholesale Trade	1996	413	9328	59		Maryland	Dorchester	Wholesale Trade	1996
+708	Frederick	"Agricultural Services, Forestry, and Fishing"	1993	913	15776	107		Maryland	Frederick	"Agricultural Services, Forestry, and Fishing"	1993
+699	Frederick	"Agricultural Services, Forestry, and Fishing"	1994	577	12000	106		Maryland	Frederick	"Agricultural Services, Forestry, and Fishing"	1994
+690	Frederick	"Agricultural Services, Forestry, and Fishing"	1995	608	11566	107		Maryland	Frederick	"Agricultural Services, Forestry, and Fishing"	1995
+681	Frederick	"Agricultural Services, Forestry, and Fishing"	1996	898	17408	135		Maryland	Frederick	"Agricultural Services, Forestry, and Fishing"	1996
+710	Frederick	Construction	1993	5026	131137	740		Maryland	Frederick	Construction	1993
+701	Frederick	Construction	1994	5046	137660	758		Maryland	Frederick	Construction	1994
+692	Frederick	Construction	1995	5530	145476	761		Maryland	Frederick	Construction	1995
+683	Frederick	Construction	1996	6059	167582	847		Maryland	Frederick	Construction	1996
+715	Frederick	"Finance, Insurance, and Real Estate"	1993	8623	288981	370		Maryland	Frederick	"Finance, Insurance, and Real Estate"	1993
+706	Frederick	"Finance, Insurance, and Real Estate"	1994	8431	259612	372		Maryland	Frederick	"Finance, Insurance, and Real Estate"	1994
+697	Frederick	"Finance, Insurance, and Real Estate"	1995	7744	252011	367		Maryland	Frederick	"Finance, Insurance, and Real Estate"	1995
+688	Frederick	"Finance, Insurance, and Real Estate"	1996	7963	247692	391		Maryland	Frederick	"Finance, Insurance, and Real Estate"	1996
+711	Frederick	Manufacturing	1993	6488	198018	153		Maryland	Frederick	Manufacturing	1993
+702	Frederick	Manufacturing	1994	7158	217446	160		Maryland	Frederick	Manufacturing	1994
+693	Frederick	Manufacturing	1995	7546	250992	164		Maryland	Frederick	Manufacturing	1995
+684	Frederick	Manufacturing	1996	8199	275612	174		Maryland	Frederick	Manufacturing	1996
+709	Frederick	Mining	1993	99	0	3		Maryland	Frederick	Mining	1993
+700	Frederick	Mining	1994	249	0	3		Maryland	Frederick	Mining	1994
+691	Frederick	Mining	1995	249	0	3		Maryland	Frederick	Mining	1995
+682	Frederick	Mining	1996	249	0	4		Maryland	Frederick	Mining	1996
+714	Frederick	Retail Trade	1993	12804	160695	965		Maryland	Frederick	Retail Trade	1993
+705	Frederick	Retail Trade	1994	13566	176445	964		Maryland	Frederick	Retail Trade	1994
+696	Frederick	Retail Trade	1995	13902	182593	959		Maryland	Frederick	Retail Trade	1995
+687	Frederick	Retail Trade	1996	14871	203969	992		Maryland	Frederick	Retail Trade	1996
+716	Frederick	Services	1993	15092	72111	1364		Maryland	Frederick	Services	1993
+707	Frederick	Services	1994	15708	353452	1396		Maryland	Frederick	Services	1994
+698	Frederick	Services	1995	17529	398955	1464		Maryland	Frederick	Services	1995
+689	Frederick	Services	1996	18105	427821	1605		Maryland	Frederick	Services	1996
+712	Frederick	Transportation and Public Utilities	1993	1383	41654	130		Maryland	Frederick	Transportation and Public Utilities	1993
+703	Frederick	Transportation and Public Utilities	1994	1639	47556	137		Maryland	Frederick	Transportation and Public Utilities	1994
+694	Frederick	Transportation and Public Utilities	1995	1624	46947	146		Maryland	Frederick	Transportation and Public Utilities	1995
+685	Frederick	Transportation and Public Utilities	1996	1605	49164	153		Maryland	Frederick	Transportation and Public Utilities	1996
+713	Frederick	Wholesale Trade	1993	2596	76154	216		Maryland	Frederick	Wholesale Trade	1993
+704	Frederick	Wholesale Trade	1994	2940	86116	230		Maryland	Frederick	Wholesale Trade	1994
+695	Frederick	Wholesale Trade	1995	3142	97714	225		Maryland	Frederick	Wholesale Trade	1995
+686	Frederick	Wholesale Trade	1996	3330	118042	257		Maryland	Frederick	Wholesale Trade	1996
+600	Garrett	"Agricultural Services, Forestry, and Fishing"	1993	37	336	12		Maryland	Garrett	"Agricultural Services, Forestry, and Fishing"	1993
+591	Garrett	"Agricultural Services, Forestry, and Fishing"	1994	0	0	12		Maryland	Garrett	"Agricultural Services, Forestry, and Fishing"	1994
+582	Garrett	"Agricultural Services, Forestry, and Fishing"	1995	38	755	15		Maryland	Garrett	"Agricultural Services, Forestry, and Fishing"	1995
+573	Garrett	"Agricultural Services, Forestry, and Fishing"	1996	99	0	839		Maryland	Garrett	"Agricultural Services, Forestry, and Fishing"	1996
+602	Garrett	Construction	1993	541	10846	114		Maryland	Garrett	Construction	1993
+593	Garrett	Construction	1994	545	12166	119		Maryland	Garrett	Construction	1994
+584	Garrett	Construction	1995	538	12667	121		Maryland	Garrett	Construction	1995
+575	Garrett	Construction	1996	637	14532	122		Maryland	Garrett	Construction	1996
+607	Garrett	"Finance, Insurance, and Real Estate"	1993	426	8087	54		Maryland	Garrett	"Finance, Insurance, and Real Estate"	1993
+598	Garrett	"Finance, Insurance, and Real Estate"	1994	435	9055	52		Maryland	Garrett	"Finance, Insurance, and Real Estate"	1994
+589	Garrett	"Finance, Insurance, and Real Estate"	1995	449	9646	45		Maryland	Garrett	"Finance, Insurance, and Real Estate"	1995
+580	Garrett	"Finance, Insurance, and Real Estate"	1996	463	9668	50		Maryland	Garrett	"Finance, Insurance, and Real Estate"	1996
+603	Garrett	Manufacturing	1993	1676	31471	56		Maryland	Garrett	Manufacturing	1993
+594	Garrett	Manufacturing	1994	1718	33473	58		Maryland	Garrett	Manufacturing	1994
+585	Garrett	Manufacturing	1995	1571	32902	62		Maryland	Garrett	Manufacturing	1995
+576	Garrett	Manufacturing	1996	1728	36224	64		Maryland	Garrett	Manufacturing	1996
+601	Garrett	Mining	1993	372	15842	12		Maryland	Garrett	Mining	1993
+592	Garrett	Mining	1994	345	16595	12		Maryland	Garrett	Mining	1994
+583	Garrett	Mining	1995	371	16560	13		Maryland	Garrett	Mining	1995
+574	Garrett	Mining	1996	403	17532	13		Maryland	Garrett	Mining	1996
+606	Garrett	Retail Trade	1993	1942	22356	203		Maryland	Garrett	Retail Trade	1993
+597	Garrett	Retail Trade	1994	2034	23349	200		Maryland	Garrett	Retail Trade	1994
+588	Garrett	Retail Trade	1995	1974	22997	199		Maryland	Garrett	Retail Trade	1995
+579	Garrett	Retail Trade	1996	1963	23359	208		Maryland	Garrett	Retail Trade	1996
+608	Garrett	Services	1993	2002	27178	230		Maryland	Garrett	Services	1993
+599	Garrett	Services	1994	2497	36368	231		Maryland	Garrett	Services	1994
+590	Garrett	Services	1995	2578	39074	239		Maryland	Garrett	Services	1995
+581	Garrett	Services	1996	2652	44717	250		Maryland	Garrett	Services	1996
+604	Garrett	Transportation and Public Utilities	1993	324	7316	50		Maryland	Garrett	Transportation and Public Utilities	1993
+595	Garrett	Transportation and Public Utilities	1994	499	0	51		Maryland	Garrett	Transportation and Public Utilities	1994
+586	Garrett	Transportation and Public Utilities	1995	301	7849	57		Maryland	Garrett	Transportation and Public Utilities	1995
+577	Garrett	Transportation and Public Utilities	1996	286	6852	64		Maryland	Garrett	Transportation and Public Utilities	1996
+605	Garrett	Wholesale Trade	1993	405	6604	54		Maryland	Garrett	Wholesale Trade	1993
+596	Garrett	Wholesale Trade	1994	499	0	44		Maryland	Garrett	Wholesale Trade	1994
+587	Garrett	Wholesale Trade	1995	373	6702	41		Maryland	Garrett	Wholesale Trade	1995
+578	Garrett	Wholesale Trade	1996	0	0	48		Maryland	Garrett	Wholesale Trade	1996
+816	Harford	"Agricultural Services, Forestry, and Fishing"	1993	541	7475	105		Maryland	Harford	"Agricultural Services, Forestry, and Fishing"	1993
+807	Harford	"Agricultural Services, Forestry, and Fishing"	1994	541	9358	115		Maryland	Harford	"Agricultural Services, Forestry, and Fishing"	1994
+798	Harford	"Agricultural Services, Forestry, and Fishing"	1995	583	9796	121		Maryland	Harford	"Agricultural Services, Forestry, and Fishing"	1995
+789	Harford	"Agricultural Services, Forestry, and Fishing"	1996	638	11792	126		Maryland	Harford	"Agricultural Services, Forestry, and Fishing"	1996
+818	Harford	Construction	1993	4450	110703	714		Maryland	Harford	Construction	1993
+809	Harford	Construction	1994	4396	118618	737		Maryland	Harford	Construction	1994
+800	Harford	Construction	1995	4649	117591	729		Maryland	Harford	Construction	1995
+791	Harford	Construction	1996	4558	126881	793		Maryland	Harford	Construction	1996
+823	Harford	"Finance, Insurance, and Real Estate"	1993	2163	52693	335		Maryland	Harford	"Finance, Insurance, and Real Estate"	1993
+814	Harford	"Finance, Insurance, and Real Estate"	1994	2105	51450	355		Maryland	Harford	"Finance, Insurance, and Real Estate"	1994
+805	Harford	"Finance, Insurance, and Real Estate"	1995	2264	54712	363		Maryland	Harford	"Finance, Insurance, and Real Estate"	1995
+796	Harford	"Finance, Insurance, and Real Estate"	1996	2500	59486	378		Maryland	Harford	"Finance, Insurance, and Real Estate"	1996
+819	Harford	Manufacturing	1993	4485	123590	137		Maryland	Harford	Manufacturing	1993
+810	Harford	Manufacturing	1994	5086	147754	143		Maryland	Harford	Manufacturing	1994
+801	Harford	Manufacturing	1995	5072	160300	142		Maryland	Harford	Manufacturing	1995
+792	Harford	Manufacturing	1996	5867	191134	156		Maryland	Harford	Manufacturing	1996
+817	Harford	Mining	1993	90	2874	6		Maryland	Harford	Mining	1993
+808	Harford	Mining	1994	103	3547	7		Maryland	Harford	Mining	1994
+799	Harford	Mining	1995	125	4313	6		Maryland	Harford	Mining	1995
+790	Harford	Mining	1996	94	3862	5		Maryland	Harford	Mining	1996
+822	Harford	Retail Trade	1993	13767	204339	940		Maryland	Harford	Retail Trade	1993
+813	Harford	Retail Trade	1994	14665	218809	975		Maryland	Harford	Retail Trade	1994
+804	Harford	Retail Trade	1995	15546	234486	978		Maryland	Harford	Retail Trade	1995
+795	Harford	Retail Trade	1996	15180	216117	976		Maryland	Harford	Retail Trade	1996
+824	Harford	Services	1993	12024	242973	1367		Maryland	Harford	Services	1993
+815	Harford	Services	1994	13301	271534	1461		Maryland	Harford	Services	1994
+806	Harford	Services	1995	14424	295120	1545		Maryland	Harford	Services	1995
+797	Harford	Services	1996	15227	322799	1608		Maryland	Harford	Services	1996
+820	Harford	Transportation and Public Utilities	1993	1556	33787	190		Maryland	Harford	Transportation and Public Utilities	1993
+811	Harford	Transportation and Public Utilities	1994	1858	46418	210		Maryland	Harford	Transportation and Public Utilities	1994
+802	Harford	Transportation and Public Utilities	1995	1955	45208	217		Maryland	Harford	Transportation and Public Utilities	1995
+793	Harford	Transportation and Public Utilities	1996	1993	50761	238		Maryland	Harford	Transportation and Public Utilities	1996
+821	Harford	Wholesale Trade	1993	1709	45898	213		Maryland	Harford	Wholesale Trade	1993
+812	Harford	Wholesale Trade	1994	1781	47415	214		Maryland	Harford	Wholesale Trade	1994
+803	Harford	Wholesale Trade	1995	1902	49286	228		Maryland	Harford	Wholesale Trade	1995
+794	Harford	Wholesale Trade	1996	2813	111913	322		Maryland	Harford	Wholesale Trade	1996
+429	Howard	"Agricultural Services, Forestry, and Fishing"	1993	967	16779	131		Maryland	Howard	"Agricultural Services, Forestry, and Fishing"	1993
+438	Howard	"Agricultural Services, Forestry, and Fishing"	1994	1017	19569	144		Maryland	Howard	"Agricultural Services, Forestry, and Fishing"	1994
+447	Howard	"Agricultural Services, Forestry, and Fishing"	1995	1078	20958	145		Maryland	Howard	"Agricultural Services, Forestry, and Fishing"	1995
+456	Howard	"Agricultural Services, Forestry, and Fishing"	1996	1204	25187	155		Maryland	Howard	"Agricultural Services, Forestry, and Fishing"	1996
+431	Howard	Construction	1993	7902	238929	739		Maryland	Howard	Construction	1993
+440	Howard	Construction	1994	7862	256361	728		Maryland	Howard	Construction	1994
+449	Howard	Construction	1995	7658	255546	729		Maryland	Howard	Construction	1995
+458	Howard	Construction	1996	7799	266817	756		Maryland	Howard	Construction	1996
+436	Howard	"Finance, Insurance, and Real Estate"	1993	7003	236199	545		Maryland	Howard	"Finance, Insurance, and Real Estate"	1993
+445	Howard	"Finance, Insurance, and Real Estate"	1994	7807	259187	581		Maryland	Howard	"Finance, Insurance, and Real Estate"	1994
+454	Howard	"Finance, Insurance, and Real Estate"	1995	8019	276857	608		Maryland	Howard	"Finance, Insurance, and Real Estate"	1995
+463	Howard	"Finance, Insurance, and Real Estate"	1996	8362	317636	639		Maryland	Howard	"Finance, Insurance, and Real Estate"	1996
+432	Howard	Manufacturing	1993	6919	245762	234		Maryland	Howard	Manufacturing	1993
+441	Howard	Manufacturing	1994	7398	275340	243		Maryland	Howard	Manufacturing	1994
+450	Howard	Manufacturing	1995	7463	276020	239		Maryland	Howard	Manufacturing	1995
+459	Howard	Manufacturing	1996	7177	283174	257		Maryland	Howard	Manufacturing	1996
+430	Howard	Mining	1993	0	0	2		Maryland	Howard	Mining	1993
+439	Howard	Mining	1994	0	0	2		Maryland	Howard	Mining	1994
+448	Howard	Mining	1995	0	0	3		Maryland	Howard	Mining	1995
+457	Howard	Mining	1996	0	0	2		Maryland	Howard	Mining	1996
+435	Howard	Retail Trade	1993	17377	273340	1072		Maryland	Howard	Retail Trade	1993
+444	Howard	Retail Trade	1994	17987	292243	1064		Maryland	Howard	Retail Trade	1994
+453	Howard	Retail Trade	1995	19248	312711	1103		Maryland	Howard	Retail Trade	1995
+462	Howard	Retail Trade	1996	18330	319605	1113		Maryland	Howard	Retail Trade	1996
+437	Howard	Services	1993	32870	944477	2250		Maryland	Howard	Services	1993
+446	Howard	Services	1994	34826	1026441	2401		Maryland	Howard	Services	1994
+455	Howard	Services	1995	37040	1138932	2547		Maryland	Howard	Services	1995
+464	Howard	Services	1996	43773	1733425	2706		Maryland	Howard	Services	1996
+433	Howard	Transportation and Public Utilities	1993	4033	110184	257		Maryland	Howard	Transportation and Public Utilities	1993
+442	Howard	Transportation and Public Utilities	1994	4342	130460	262		Maryland	Howard	Transportation and Public Utilities	1994
+451	Howard	Transportation and Public Utilities	1995	4878	146478	276		Maryland	Howard	Transportation and Public Utilities	1995
+460	Howard	Transportation and Public Utilities	1996	5388	170141	292		Maryland	Howard	Transportation and Public Utilities	1996
+434	Howard	Wholesale Trade	1993	10854	390660	614		Maryland	Howard	Wholesale Trade	1993
+443	Howard	Wholesale Trade	1994	11526	413768	636		Maryland	Howard	Wholesale Trade	1994
+452	Howard	Wholesale Trade	1995	12245	470740	640		Maryland	Howard	Wholesale Trade	1995
+461	Howard	Wholesale Trade	1996	13947	538404	684		Maryland	Howard	Wholesale Trade	1996
+280	Kent	"Agricultural Services, Forestry, and Fishing"	1993	59	1023	16		Maryland	Kent	"Agricultural Services, Forestry, and Fishing"	1993
+271	Kent	"Agricultural Services, Forestry, and Fishing"	1994	80	1283	18		Maryland	Kent	"Agricultural Services, Forestry, and Fishing"	1994
+262	Kent	"Agricultural Services, Forestry, and Fishing"	1995	90	1392	18		Maryland	Kent	"Agricultural Services, Forestry, and Fishing"	1995
+253	Kent	"Agricultural Services, Forestry, and Fishing"	1996	63	1068	18		Maryland	Kent	"Agricultural Services, Forestry, and Fishing"	1996
+282	Kent	Construction	1993	428	11265	82		Maryland	Kent	Construction	1993
+273	Kent	Construction	1994	459	12182	87		Maryland	Kent	Construction	1994
+264	Kent	Construction	1995	496	12750	83		Maryland	Kent	Construction	1995
+255	Kent	Construction	1996	410	10768	74		Maryland	Kent	Construction	1996
+287	Kent	"Finance, Insurance, and Real Estate"	1993	292	6595	48		Maryland	Kent	"Finance, Insurance, and Real Estate"	1993
+278	Kent	"Finance, Insurance, and Real Estate"	1994	282	5917	54		Maryland	Kent	"Finance, Insurance, and Real Estate"	1994
+269	Kent	"Finance, Insurance, and Real Estate"	1995	272	6419	53		Maryland	Kent	"Finance, Insurance, and Real Estate"	1995
+260	Kent	"Finance, Insurance, and Real Estate"	1996	299	8152	61		Maryland	Kent	"Finance, Insurance, and Real Estate"	1996
+283	Kent	Manufacturing	1993	1171	24890	30		Maryland	Kent	Manufacturing	1993
+274	Kent	Manufacturing	1994	1199	25566	33		Maryland	Kent	Manufacturing	1994
+265	Kent	Manufacturing	1995	1075	22464	30		Maryland	Kent	Manufacturing	1995
+256	Kent	Manufacturing	1996	884	22972	34		Maryland	Kent	Manufacturing	1996
+281	Kent	Mining	1993	0	0	0		Maryland	Kent	Mining	1993
+272	Kent	Mining	1994	0	0	0		Maryland	Kent	Mining	1994
+263	Kent	Mining	1995	0	0	0		Maryland	Kent	Mining	1995
+254	Kent	Mining	1996	0	0	0		Maryland	Kent	Mining	1996
+286	Kent	Retail Trade	1993	1352	16094	174		Maryland	Kent	Retail Trade	1993
+277	Kent	Retail Trade	1994	1386	16670	165		Maryland	Kent	Retail Trade	1994
+268	Kent	Retail Trade	1995	1380	17014	161		Maryland	Kent	Retail Trade	1995
+259	Kent	Retail Trade	1996	1403	16265	157		Maryland	Kent	Retail Trade	1996
+288	Kent	Services	1993	1813	7369	208		Maryland	Kent	Services	1993
+279	Kent	Services	1994	1747	33741	203		Maryland	Kent	Services	1994
+270	Kent	Services	1995	2129	36888	206		Maryland	Kent	Services	1995
+261	Kent	Services	1996	2267	38917	203		Maryland	Kent	Services	1996
+284	Kent	Transportation and Public Utilities	1993	356	9301	54		Maryland	Kent	Transportation and Public Utilities	1993
+275	Kent	Transportation and Public Utilities	1994	499	0	56		Maryland	Kent	Transportation and Public Utilities	1994
+266	Kent	Transportation and Public Utilities	1995	377	9611	62		Maryland	Kent	Transportation and Public Utilities	1995
+257	Kent	Transportation and Public Utilities	1996	406	9504	59		Maryland	Kent	Transportation and Public Utilities	1996
+285	Kent	Wholesale Trade	1993	189	5018	34		Maryland	Kent	Wholesale Trade	1993
+276	Kent	Wholesale Trade	1994	188	5335	33		Maryland	Kent	Wholesale Trade	1994
+267	Kent	Wholesale Trade	1995	220	4835	35		Maryland	Kent	Wholesale Trade	1995
+258	Kent	Wholesale Trade	1996	218	5529	38		Maryland	Kent	Wholesale Trade	1996
+465	Montgomery	"Agricultural Services, Forestry, and Fishing"	1993	3191	68412	464		Maryland	Montgomery	"Agricultural Services, Forestry, and Fishing"	1993
+474	Montgomery	"Agricultural Services, Forestry, and Fishing"	1994	3497	77301	472		Maryland	Montgomery	"Agricultural Services, Forestry, and Fishing"	1994
+483	Montgomery	"Agricultural Services, Forestry, and Fishing"	1995	3808	83232	480		Maryland	Montgomery	"Agricultural Services, Forestry, and Fishing"	1995
+492	Montgomery	"Agricultural Services, Forestry, and Fishing"	1996	3975	83196	489		Maryland	Montgomery	"Agricultural Services, Forestry, and Fishing"	1996
+467	Montgomery	Construction	1993	25116	877408	2065		Maryland	Montgomery	Construction	1993
+476	Montgomery	Construction	1994	27473	951593	2079		Maryland	Montgomery	Construction	1994
+485	Montgomery	Construction	1995	29901	955020	2106		Maryland	Montgomery	Construction	1995
+494	Montgomery	Construction	1996	25667	858171	2142		Maryland	Montgomery	Construction	1996
+472	Montgomery	"Finance, Insurance, and Real Estate"	1993	33718	1150835	2657		Maryland	Montgomery	"Finance, Insurance, and Real Estate"	1993
+481	Montgomery	"Finance, Insurance, and Real Estate"	1994	32907	1146168	2683		Maryland	Montgomery	"Finance, Insurance, and Real Estate"	1994
+490	Montgomery	"Finance, Insurance, and Real Estate"	1995	32360	1156267	2664		Maryland	Montgomery	"Finance, Insurance, and Real Estate"	1995
+499	Montgomery	"Finance, Insurance, and Real Estate"	1996	30697	1208737	2623		Maryland	Montgomery	"Finance, Insurance, and Real Estate"	1996
+468	Montgomery	Manufacturing	1993	19378	788268	592		Maryland	Montgomery	Manufacturing	1993
+477	Montgomery	Manufacturing	1994	18388	774500	597		Maryland	Montgomery	Manufacturing	1994
+486	Montgomery	Manufacturing	1995	18925	831938	611		Maryland	Montgomery	Manufacturing	1995
+495	Montgomery	Manufacturing	1996	19185	1043289	604		Maryland	Montgomery	Manufacturing	1996
+466	Montgomery	Mining	1993	92	4655	5		Maryland	Montgomery	Mining	1993
+475	Montgomery	Mining	1994	0	0	4		Maryland	Montgomery	Mining	1994
+484	Montgomery	Mining	1995	120	4621	4		Maryland	Montgomery	Mining	1995
+493	Montgomery	Mining	1996	0	0	2		Maryland	Montgomery	Mining	1996
+471	Montgomery	Retail Trade	1993	61832	1061903	4295		Maryland	Montgomery	Retail Trade	1993
+480	Montgomery	Retail Trade	1994	64446	1123107	4335		Maryland	Montgomery	Retail Trade	1994
+489	Montgomery	Retail Trade	1995	67019	1218157	4450		Maryland	Montgomery	Retail Trade	1995
+498	Montgomery	Retail Trade	1996	65137	1225065	4368		Maryland	Montgomery	Retail Trade	1996
+473	Montgomery	Services	1993	153506	4390749	10482		Maryland	Montgomery	Services	1993
+482	Montgomery	Services	1994	152601	4666035	10838		Maryland	Montgomery	Services	1994
+491	Montgomery	Services	1995	159803	5150271	11094		Maryland	Montgomery	Services	1995
+500	Montgomery	Services	1996	168433	5669118	11435		Maryland	Montgomery	Services	1996
+469	Montgomery	Transportation and Public Utilities	1993	13049	549563	571		Maryland	Montgomery	Transportation and Public Utilities	1993
+478	Montgomery	Transportation and Public Utilities	1994	13044	589838	580		Maryland	Montgomery	Transportation and Public Utilities	1994
+487	Montgomery	Transportation and Public Utilities	1995	14732	630704	592		Maryland	Montgomery	Transportation and Public Utilities	1995
+496	Montgomery	Transportation and Public Utilities	1996	13530	684973	610		Maryland	Montgomery	Transportation and Public Utilities	1996
+470	Montgomery	Wholesale Trade	1993	17643	828770	1132		Maryland	Montgomery	Wholesale Trade	1993
+479	Montgomery	Wholesale Trade	1994	16847	770139	1137		Maryland	Montgomery	Wholesale Trade	1994
+488	Montgomery	Wholesale Trade	1995	15556	712631	1174		Maryland	Montgomery	Wholesale Trade	1995
+497	Montgomery	Wholesale Trade	1996	16418	825187	1200		Maryland	Montgomery	Wholesale Trade	1996
+501	Prince George	"Agricultural Services, Forestry, and Fishing"	1993	1140	20446	184		Maryland	Prince George	"Agricultural Services, Forestry, and Fishing"	1993
+510	Prince George	"Agricultural Services, Forestry, and Fishing"	1994	1161	23350	177		Maryland	Prince George	"Agricultural Services, Forestry, and Fishing"	1994
+519	Prince George	"Agricultural Services, Forestry, and Fishing"	1995	1328	24746	177		Maryland	Prince George	"Agricultural Services, Forestry, and Fishing"	1995
+528	Prince George	"Agricultural Services, Forestry, and Fishing"	1996	1355	26010	171		Maryland	Prince George	"Agricultural Services, Forestry, and Fishing"	1996
+503	Prince George	Construction	1993	23061	688854	1634		Maryland	Prince George	Construction	1993
+512	Prince George	Construction	1994	22319	712067	1608		Maryland	Prince George	Construction	1994
+521	Prince George	Construction	1995	24658	784992	1595		Maryland	Prince George	Construction	1995
+530	Prince George	Construction	1996	25113	856440	1563		Maryland	Prince George	Construction	1996
+508	Prince George	"Finance, Insurance, and Real Estate"	1993	12043	321276	1291		Maryland	Prince George	"Finance, Insurance, and Real Estate"	1993
+517	Prince George	"Finance, Insurance, and Real Estate"	1994	12140	331124	1275		Maryland	Prince George	"Finance, Insurance, and Real Estate"	1994
+526	Prince George	"Finance, Insurance, and Real Estate"	1995	12772	364658	1283		Maryland	Prince George	"Finance, Insurance, and Real Estate"	1995
+535	Prince George	"Finance, Insurance, and Real Estate"	1996	12983	394624	1294		Maryland	Prince George	"Finance, Insurance, and Real Estate"	1996
+504	Prince George	Manufacturing	1993	11700	364096	385		Maryland	Prince George	Manufacturing	1993
+513	Prince George	Manufacturing	1994	10211	347000	382		Maryland	Prince George	Manufacturing	1994
+522	Prince George	Manufacturing	1995	11508	381410	383		Maryland	Prince George	Manufacturing	1995
+531	Prince George	Manufacturing	1996	11523	418993	389		Maryland	Prince George	Manufacturing	1996
+502	Prince George	Mining	1993	159	6318	8		Maryland	Prince George	Mining	1993
+511	Prince George	Mining	1994	169	6465	7		Maryland	Prince George	Mining	1994
+520	Prince George	Mining	1995	182	6181	8		Maryland	Prince George	Mining	1995
+529	Prince George	Mining	1996	192	6169	9		Maryland	Prince George	Mining	1996
+507	Prince George	Retail Trade	1993	59219	992584	3440		Maryland	Prince George	Retail Trade	1993
+516	Prince George	Retail Trade	1994	59293	1007286	3374		Maryland	Prince George	Retail Trade	1994
+525	Prince George	Retail Trade	1995	60789	1086273	3360		Maryland	Prince George	Retail Trade	1995
+534	Prince George	Retail Trade	1996	60213	1118899	3342		Maryland	Prince George	Retail Trade	1996
+509	Prince George	Services	1993	83368	2213614	5321		Maryland	Prince George	Services	1993
+518	Prince George	Services	1994	85100	2302928	5412		Maryland	Prince George	Services	1994
+527	Prince George	Services	1995	89814	2514032	5459		Maryland	Prince George	Services	1995
+536	Prince George	Services	1996	92644	2692044	5664		Maryland	Prince George	Services	1996
+505	Prince George	Transportation and Public Utilities	1993	13890	423225	427		Maryland	Prince George	Transportation and Public Utilities	1993
+514	Prince George	Transportation and Public Utilities	1994	14605	450290	439		Maryland	Prince George	Transportation and Public Utilities	1994
+523	Prince George	Transportation and Public Utilities	1995	15196	473708	451		Maryland	Prince George	Transportation and Public Utilities	1995
+532	Prince George	Transportation and Public Utilities	1996	15448	498732	486		Maryland	Prince George	Transportation and Public Utilities	1996
+506	Prince George	Wholesale Trade	1993	16455	572793	911		Maryland	Prince George	Wholesale Trade	1993
+515	Prince George	Wholesale Trade	1994	16657	574302	904		Maryland	Prince George	Wholesale Trade	1994
+524	Prince George	Wholesale Trade	1995	17125	617766	930		Maryland	Prince George	Wholesale Trade	1995
+533	Prince George	Wholesale Trade	1996	16884	642942	945		Maryland	Prince George	Wholesale Trade	1996
+244	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1993	86	1378	25		Maryland	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1993
+235	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1994	87	1440	25		Maryland	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1994
+226	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1995	99	0	27		Maryland	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1995
+217	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1996	92	1843	34		Maryland	Queen Anne's	"Agricultural Services, Forestry, and Fishing"	1996
+246	Queen Anne's	Construction	1993	728	15706	185		Maryland	Queen Anne's	Construction	1993
+237	Queen Anne's	Construction	1994	695	15505	203		Maryland	Queen Anne's	Construction	1994
+228	Queen Anne's	Construction	1995	818	16872	206		Maryland	Queen Anne's	Construction	1995
+219	Queen Anne's	Construction	1996	913	19895	230		Maryland	Queen Anne's	Construction	1996
+251	Queen Anne's	"Finance, Insurance, and Real Estate"	1993	265	5880	65		Maryland	Queen Anne's	"Finance, Insurance, and Real Estate"	1993
+242	Queen Anne's	"Finance, Insurance, and Real Estate"	1994	332	6767	70		Maryland	Queen Anne's	"Finance, Insurance, and Real Estate"	1994
+233	Queen Anne's	"Finance, Insurance, and Real Estate"	1995	286	7121	75		Maryland	Queen Anne's	"Finance, Insurance, and Real Estate"	1995
+224	Queen Anne's	"Finance, Insurance, and Real Estate"	1996	295	7482	71		Maryland	Queen Anne's	"Finance, Insurance, and Real Estate"	1996
+247	Queen Anne's	Manufacturing	1993	801	17129	35		Maryland	Queen Anne's	Manufacturing	1993
+238	Queen Anne's	Manufacturing	1994	716	16729	33		Maryland	Queen Anne's	Manufacturing	1994
+229	Queen Anne's	Manufacturing	1995	794	20472	34		Maryland	Queen Anne's	Manufacturing	1995
+220	Queen Anne's	Manufacturing	1996	803	21065	36		Maryland	Queen Anne's	Manufacturing	1996
+245	Queen Anne's	Mining	1993	0	0	0		Maryland	Queen Anne's	Mining	1993
+236	Queen Anne's	Mining	1994	0	0	0		Maryland	Queen Anne's	Mining	1994
+227	Queen Anne's	Mining	1995	0	0	0		Maryland	Queen Anne's	Mining	1995
+218	Queen Anne's	Mining	1996	0	0	0		Maryland	Queen Anne's	Mining	1996
+250	Queen Anne's	Retail Trade	1993	2204	29394	250		Maryland	Queen Anne's	Retail Trade	1993
+241	Queen Anne's	Retail Trade	1994	2507	34333	264		Maryland	Queen Anne's	Retail Trade	1994
+232	Queen Anne's	Retail Trade	1995	2834	36796	255		Maryland	Queen Anne's	Retail Trade	1995
+223	Queen Anne's	Retail Trade	1996	2874	39673	283		Maryland	Queen Anne's	Retail Trade	1996
+252	Queen Anne's	Services	1993	1457	22933	240		Maryland	Queen Anne's	Services	1993
+243	Queen Anne's	Services	1994	1531	25890	243		Maryland	Queen Anne's	Services	1994
+234	Queen Anne's	Services	1995	1726	30377	250		Maryland	Queen Anne's	Services	1995
+225	Queen Anne's	Services	1996	1608	32138	272		Maryland	Queen Anne's	Services	1996
+248	Queen Anne's	Transportation and Public Utilities	1993	317	7989	43		Maryland	Queen Anne's	Transportation and Public Utilities	1993
+239	Queen Anne's	Transportation and Public Utilities	1994	499	0	58		Maryland	Queen Anne's	Transportation and Public Utilities	1994
+230	Queen Anne's	Transportation and Public Utilities	1995	499	0	59		Maryland	Queen Anne's	Transportation and Public Utilities	1995
+221	Queen Anne's	Transportation and Public Utilities	1996	429	10704	69		Maryland	Queen Anne's	Transportation and Public Utilities	1996
+249	Queen Anne's	Wholesale Trade	1993	605	14526	71		Maryland	Queen Anne's	Wholesale Trade	1993
+240	Queen Anne's	Wholesale Trade	1994	587	15934	69		Maryland	Queen Anne's	Wholesale Trade	1994
+231	Queen Anne's	Wholesale Trade	1995	628	16488	72		Maryland	Queen Anne's	Wholesale Trade	1995
+222	Queen Anne's	Wholesale Trade	1996	663	16897	94		Maryland	Queen Anne's	Wholesale Trade	1996
+64	Somerset	"Agricultural Services, Forestry, and Fishing"	1993	99	0	9		Maryland	Somerset	"Agricultural Services, Forestry, and Fishing"	1993
+55	Somerset	"Agricultural Services, Forestry, and Fishing"	1994	99	0	8		Maryland	Somerset	"Agricultural Services, Forestry, and Fishing"	1994
+46	Somerset	"Agricultural Services, Forestry, and Fishing"	1995	99	0	11		Maryland	Somerset	"Agricultural Services, Forestry, and Fishing"	1995
+37	Somerset	"Agricultural Services, Forestry, and Fishing"	1996	99	0	15		Maryland	Somerset	"Agricultural Services, Forestry, and Fishing"	1996
+66	Somerset	Construction	1993	221	3841	48		Maryland	Somerset	Construction	1993
+57	Somerset	Construction	1994	249	0	47		Maryland	Somerset	Construction	1994
+48	Somerset	Construction	1995	499	0	49		Maryland	Somerset	Construction	1995
+39	Somerset	Construction	1996	499	0	52		Maryland	Somerset	Construction	1996
+71	Somerset	"Finance, Insurance, and Real Estate"	1993	170	3256	31		Maryland	Somerset	"Finance, Insurance, and Real Estate"	1993
+62	Somerset	"Finance, Insurance, and Real Estate"	1994	153	3409	28		Maryland	Somerset	"Finance, Insurance, and Real Estate"	1994
+53	Somerset	"Finance, Insurance, and Real Estate"	1995	249	0	26		Maryland	Somerset	"Finance, Insurance, and Real Estate"	1995
+44	Somerset	"Finance, Insurance, and Real Estate"	1996	249	0	27		Maryland	Somerset	"Finance, Insurance, and Real Estate"	1996
+67	Somerset	Manufacturing	1993	389	9291	28		Maryland	Somerset	Manufacturing	1993
+58	Somerset	Manufacturing	1994	447	9558	26		Maryland	Somerset	Manufacturing	1994
+49	Somerset	Manufacturing	1995	487	8643	28		Maryland	Somerset	Manufacturing	1995
+40	Somerset	Manufacturing	1996	379	8305	24		Maryland	Somerset	Manufacturing	1996
+65	Somerset	Mining	1993	0	0	0		Maryland	Somerset	Mining	1993
+56	Somerset	Mining	1994	0	0	0		Maryland	Somerset	Mining	1994
+47	Somerset	Mining	1995	0	0	0		Maryland	Somerset	Mining	1995
+38	Somerset	Mining	1996	0	0	0		Maryland	Somerset	Mining	1996
+70	Somerset	Retail Trade	1993	839	8023	100		Maryland	Somerset	Retail Trade	1993
+61	Somerset	Retail Trade	1994	835	7957	103		Maryland	Somerset	Retail Trade	1994
+52	Somerset	Retail Trade	1995	796	8214	102		Maryland	Somerset	Retail Trade	1995
+43	Somerset	Retail Trade	1996	999	0	97		Maryland	Somerset	Retail Trade	1996
+72	Somerset	Services	1993	818	11402	101		Maryland	Somerset	Services	1993
+63	Somerset	Services	1994	794	11859	101		Maryland	Somerset	Services	1994
+54	Somerset	Services	1995	840	13241	104		Maryland	Somerset	Services	1995
+45	Somerset	Services	1996	935	14967	114		Maryland	Somerset	Services	1996
+68	Somerset	Transportation and Public Utilities	1993	80	1501	17		Maryland	Somerset	Transportation and Public Utilities	1993
+59	Somerset	Transportation and Public Utilities	1994	93	2066	20		Maryland	Somerset	Transportation and Public Utilities	1994
+50	Somerset	Transportation and Public Utilities	1995	92	1876	19		Maryland	Somerset	Transportation and Public Utilities	1995
+41	Somerset	Transportation and Public Utilities	1996	0	0	18		Maryland	Somerset	Transportation and Public Utilities	1996
+69	Somerset	Wholesale Trade	1993	218	3470	27		Maryland	Somerset	Wholesale Trade	1993
+60	Somerset	Wholesale Trade	1994	178	2922	28		Maryland	Somerset	Wholesale Trade	1994
+51	Somerset	Wholesale Trade	1995	249	0	25		Maryland	Somerset	Wholesale Trade	1995
+42	Somerset	Wholesale Trade	1996	249	0	23		Maryland	Somerset	Wholesale Trade	1996
+537	St. Marys	"Agricultural Services, Forestry, and Fishing"	1993	77	1338	14		Maryland	St. Marys	"Agricultural Services, Forestry, and Fishing"	1993
+546	St. Marys	"Agricultural Services, Forestry, and Fishing"	1994	93	1643	19		Maryland	St. Marys	"Agricultural Services, Forestry, and Fishing"	1994
+555	St. Marys	"Agricultural Services, Forestry, and Fishing"	1995	100	1719	19		Maryland	St. Marys	"Agricultural Services, Forestry, and Fishing"	1995
+564	St. Marys	"Agricultural Services, Forestry, and Fishing"	1996	127	2229	21		Maryland	St. Marys	"Agricultural Services, Forestry, and Fishing"	1996
+539	St. Marys	Construction	1993	1365	28257	271		Maryland	St. Marys	Construction	1993
+548	St. Marys	Construction	1994	1375	29424	268		Maryland	St. Marys	Construction	1994
+557	St. Marys	Construction	1995	1452	32049	260		Maryland	St. Marys	Construction	1995
+566	St. Marys	Construction	1996	1452	35503	288		Maryland	St. Marys	Construction	1996
+544	St. Marys	"Finance, Insurance, and Real Estate"	1993	584	11399	109		Maryland	St. Marys	"Finance, Insurance, and Real Estate"	1993
+553	St. Marys	"Finance, Insurance, and Real Estate"	1994	582	12096	115		Maryland	St. Marys	"Finance, Insurance, and Real Estate"	1994
+562	St. Marys	"Finance, Insurance, and Real Estate"	1995	611	13407	127		Maryland	St. Marys	"Finance, Insurance, and Real Estate"	1995
+571	St. Marys	"Finance, Insurance, and Real Estate"	1996	626	13668	126		Maryland	St. Marys	"Finance, Insurance, and Real Estate"	1996
+540	St. Marys	Manufacturing	1993	353	6503	30		Maryland	St. Marys	Manufacturing	1993
+549	St. Marys	Manufacturing	1994	364	7395	27		Maryland	St. Marys	Manufacturing	1994
+558	St. Marys	Manufacturing	1995	425	7284	25		Maryland	St. Marys	Manufacturing	1995
+567	St. Marys	Manufacturing	1996	425	8707	27		Maryland	St. Marys	Manufacturing	1996
+538	St. Marys	Mining	1993	0	0	2		Maryland	St. Marys	Mining	1993
+547	St. Marys	Mining	1994	0	0	2		Maryland	St. Marys	Mining	1994
+556	St. Marys	Mining	1995	0	0	2		Maryland	St. Marys	Mining	1995
+565	St. Marys	Mining	1996	0	0	2		Maryland	St. Marys	Mining	1996
+543	St. Marys	Retail Trade	1993	4385	1	5061		Maryland	St. Marys	Retail Trade	1993
+552	St. Marys	Retail Trade	1994	4774	56199	361		Maryland	St. Marys	Retail Trade	1994
+561	St. Marys	Retail Trade	1995	4934	60617	359		Maryland	St. Marys	Retail Trade	1995
+570	St. Marys	Retail Trade	1996	5305	67218	363		Maryland	St. Marys	Retail Trade	1996
+545	St. Marys	Services	1993	7093	4	10753		Maryland	St. Marys	Services	1993
+554	St. Marys	Services	1994	7030	200651	511		Maryland	St. Marys	Services	1994
+563	St. Marys	Services	1995	7388	223280	513		Maryland	St. Marys	Services	1995
+572	St. Marys	Services	1996	7863	243229	539		Maryland	St. Marys	Services	1996
+541	St. Marys	Transportation and Public Utilities	1993	1290	31823	123		Maryland	St. Marys	Transportation and Public Utilities	1993
+550	St. Marys	Transportation and Public Utilities	1994	1252	32588	132		Maryland	St. Marys	Transportation and Public Utilities	1994
+559	St. Marys	Transportation and Public Utilities	1995	1328	37529	132		Maryland	St. Marys	Transportation and Public Utilities	1995
+568	St. Marys	Transportation and Public Utilities	1996	1476	41109	149		Maryland	St. Marys	Transportation and Public Utilities	1996
+542	St. Marys	Wholesale Trade	1993	339	8295	45		Maryland	St. Marys	Wholesale Trade	1993
+551	St. Marys	Wholesale Trade	1994	379	9610	47		Maryland	St. Marys	Wholesale Trade	1994
+560	St. Marys	Wholesale Trade	1995	404	9699	45		Maryland	St. Marys	Wholesale Trade	1995
+569	St. Marys	Wholesale Trade	1996	402	9688	47		Maryland	St. Marys	Wholesale Trade	1996
+208	Talbot	"Agricultural Services, Forestry, and Fishing"	1993	153	2657	29		Maryland	Talbot	"Agricultural Services, Forestry, and Fishing"	1993
+199	Talbot	"Agricultural Services, Forestry, and Fishing"	1994	173	167	30		Maryland	Talbot	"Agricultural Services, Forestry, and Fishing"	1994
+190	Talbot	"Agricultural Services, Forestry, and Fishing"	1995	165	3084	34		Maryland	Talbot	"Agricultural Services, Forestry, and Fishing"	1995
+181	Talbot	"Agricultural Services, Forestry, and Fishing"	1996	161	3097	43		Maryland	Talbot	"Agricultural Services, Forestry, and Fishing"	1996
+210	Talbot	Construction	1993	899	19382	168		Maryland	Talbot	Construction	1993
+201	Talbot	Construction	1994	949	21867	173		Maryland	Talbot	Construction	1994
+192	Talbot	Construction	1995	1027	21544	181		Maryland	Talbot	Construction	1995
+183	Talbot	Construction	1996	996	23113	190		Maryland	Talbot	Construction	1996
+215	Talbot	"Finance, Insurance, and Real Estate"	1993	675	20045	144		Maryland	Talbot	"Finance, Insurance, and Real Estate"	1993
+206	Talbot	"Finance, Insurance, and Real Estate"	1994	638	20056	141		Maryland	Talbot	"Finance, Insurance, and Real Estate"	1994
+197	Talbot	"Finance, Insurance, and Real Estate"	1995	575	18562	138		Maryland	Talbot	"Finance, Insurance, and Real Estate"	1995
+188	Talbot	"Finance, Insurance, and Real Estate"	1996	576	19405	145		Maryland	Talbot	"Finance, Insurance, and Real Estate"	1996
+211	Talbot	Manufacturing	1993	3245	70662	72		Maryland	Talbot	Manufacturing	1993
+202	Talbot	Manufacturing	1994	3303	70296	70		Maryland	Talbot	Manufacturing	1994
+193	Talbot	Manufacturing	1995	3121	72489	75		Maryland	Talbot	Manufacturing	1995
+184	Talbot	Manufacturing	1996	3173	76237	70		Maryland	Talbot	Manufacturing	1996
+209	Talbot	Mining	1993	0	0	0		Maryland	Talbot	Mining	1993
+200	Talbot	Mining	1994	0	0	0		Maryland	Talbot	Mining	1994
+191	Talbot	Mining	1995	0	0	1		Maryland	Talbot	Mining	1995
+182	Talbot	Mining	1996	19	0	1		Maryland	Talbot	Mining	1996
+214	Talbot	Retail Trade	1993	3222	44516	288		Maryland	Talbot	Retail Trade	1993
+205	Talbot	Retail Trade	1994	3333	52149	309		Maryland	Talbot	Retail Trade	1994
+196	Talbot	Retail Trade	1995	3589	53755	313		Maryland	Talbot	Retail Trade	1995
+187	Talbot	Retail Trade	1996	3341	53103	321		Maryland	Talbot	Retail Trade	1996
+216	Talbot	Services	1993	5423	112528	433		Maryland	Talbot	Services	1993
+207	Talbot	Services	1994	5392	117682	446		Maryland	Talbot	Services	1994
+198	Talbot	Services	1995	5266	122528	449		Maryland	Talbot	Services	1995
+189	Talbot	Services	1996	5350	135033	477		Maryland	Talbot	Services	1996
+212	Talbot	Transportation and Public Utilities	1993	383	8352	49		Maryland	Talbot	Transportation and Public Utilities	1993
+203	Talbot	Transportation and Public Utilities	1994	388	9983	47		Maryland	Talbot	Transportation and Public Utilities	1994
+194	Talbot	Transportation and Public Utilities	1995	425	12491	48		Maryland	Talbot	Transportation and Public Utilities	1995
+185	Talbot	Transportation and Public Utilities	1996	465	10077	56		Maryland	Talbot	Transportation and Public Utilities	1996
+213	Talbot	Wholesale Trade	1993	695	17692	78		Maryland	Talbot	Wholesale Trade	1993
+204	Talbot	Wholesale Trade	1994	749	19939	86		Maryland	Talbot	Wholesale Trade	1994
+195	Talbot	Wholesale Trade	1995	787	20138	86		Maryland	Talbot	Wholesale Trade	1995
+186	Talbot	Wholesale Trade	1996	763	19427	89		Maryland	Talbot	Wholesale Trade	1996
+672	Washington	"Agricultural Services, Forestry, and Fishing"	1993	233	3472	38		Maryland	Washington	"Agricultural Services, Forestry, and Fishing"	1993
+663	Washington	"Agricultural Services, Forestry, and Fishing"	1994	218	3819	42		Maryland	Washington	"Agricultural Services, Forestry, and Fishing"	1994
+654	Washington	"Agricultural Services, Forestry, and Fishing"	1995	234	4049	45		Maryland	Washington	"Agricultural Services, Forestry, and Fishing"	1995
+645	Washington	"Agricultural Services, Forestry, and Fishing"	1996	272	4195	47		Maryland	Washington	"Agricultural Services, Forestry, and Fishing"	1996
+674	Washington	Construction	1993	2812	65001	383		Maryland	Washington	Construction	1993
+665	Washington	Construction	1994	2706	70233	397		Maryland	Washington	Construction	1994
+656	Washington	Construction	1995	3077	75813	390		Maryland	Washington	Construction	1995
+647	Washington	Construction	1996	3083	80713	405		Maryland	Washington	Construction	1996
+679	Washington	"Finance, Insurance, and Real Estate"	1993	3544	79487	249		Maryland	Washington	"Finance, Insurance, and Real Estate"	1993
+670	Washington	"Finance, Insurance, and Real Estate"	1994	4302	96345	244		Maryland	Washington	"Finance, Insurance, and Real Estate"	1994
+661	Washington	"Finance, Insurance, and Real Estate"	1995	4759	115263	259		Maryland	Washington	"Finance, Insurance, and Real Estate"	1995
+652	Washington	"Finance, Insurance, and Real Estate"	1996	5010	131579	260		Maryland	Washington	"Finance, Insurance, and Real Estate"	1996
+675	Washington	Manufacturing	1993	9552	253540	155		Maryland	Washington	Manufacturing	1993
+666	Washington	Manufacturing	1994	9358	275483	157		Maryland	Washington	Manufacturing	1994
+657	Washington	Manufacturing	1995	9599	292243	155		Maryland	Washington	Manufacturing	1995
+648	Washington	Manufacturing	1996	9452	296859	148		Maryland	Washington	Manufacturing	1996
+673	Washington	Mining	1993	79	2821	5		Maryland	Washington	Mining	1993
+664	Washington	Mining	1994	79	2989	5		Maryland	Washington	Mining	1994
+655	Washington	Mining	1995	77	2961	5		Maryland	Washington	Mining	1995
+646	Washington	Mining	1996	77	3342	5		Maryland	Washington	Mining	1996
+678	Washington	Retail Trade	1993	9873	117458	811		Maryland	Washington	Retail Trade	1993
+669	Washington	Retail Trade	1994	9974	125227	800		Maryland	Washington	Retail Trade	1994
+660	Washington	Retail Trade	1995	10592	131416	804		Maryland	Washington	Retail Trade	1995
+651	Washington	Retail Trade	1996	10895	136093	800		Maryland	Washington	Retail Trade	1996
+680	Washington	Services	1993	12425	235525	1006		Maryland	Washington	Services	1993
+671	Washington	Services	1994	13262	251543	1040		Maryland	Washington	Services	1994
+662	Washington	Services	1995	14481	273154	1067		Maryland	Washington	Services	1995
+653	Washington	Services	1996	14134	292694	1114		Maryland	Washington	Services	1996
+676	Washington	Transportation and Public Utilities	1993	2941	90257	139		Maryland	Washington	Transportation and Public Utilities	1993
+667	Washington	Transportation and Public Utilities	1994	3008	92101	143		Maryland	Washington	Transportation and Public Utilities	1994
+658	Washington	Transportation and Public Utilities	1995	3023	98582	142		Maryland	Washington	Transportation and Public Utilities	1995
+649	Washington	Transportation and Public Utilities	1996	3072	101647	144		Maryland	Washington	Transportation and Public Utilities	1996
+677	Washington	Wholesale Trade	1993	2742	71303	230		Maryland	Washington	Wholesale Trade	1993
+668	Washington	Wholesale Trade	1994	2813	73974	219		Maryland	Washington	Wholesale Trade	1994
+659	Washington	Wholesale Trade	1995	2846	78069	211		Maryland	Washington	Wholesale Trade	1995
+650	Washington	Wholesale Trade	1996	2707	75190	219		Maryland	Washington	Wholesale Trade	1996
+100	Wicomico	"Agricultural Services, Forestry, and Fishing"	1993	124	1950	28		Maryland	Wicomico	"Agricultural Services, Forestry, and Fishing"	1993
+91	Wicomico	"Agricultural Services, Forestry, and Fishing"	1994	0	0	28		Maryland	Wicomico	"Agricultural Services, Forestry, and Fishing"	1994
+82	Wicomico	"Agricultural Services, Forestry, and Fishing"	1995	134	2147	27		Maryland	Wicomico	"Agricultural Services, Forestry, and Fishing"	1995
+73	Wicomico	"Agricultural Services, Forestry, and Fishing"	1996	124	2499	30		Maryland	Wicomico	"Agricultural Services, Forestry, and Fishing"	1996
+102	Wicomico	Construction	1993	1977	8819	306		Maryland	Wicomico	Construction	1993
+93	Wicomico	Construction	1994	1955	42630	320		Maryland	Wicomico	Construction	1994
+84	Wicomico	Construction	1995	2066	44351	313		Maryland	Wicomico	Construction	1995
+75	Wicomico	Construction	1996	1934	45686	310		Maryland	Wicomico	Construction	1996
+107	Wicomico	"Finance, Insurance, and Real Estate"	1993	1871	46525	188		Maryland	Wicomico	"Finance, Insurance, and Real Estate"	1993
+98	Wicomico	"Finance, Insurance, and Real Estate"	1994	1451	37220	196		Maryland	Wicomico	"Finance, Insurance, and Real Estate"	1994
+89	Wicomico	"Finance, Insurance, and Real Estate"	1995	1542	40115	220		Maryland	Wicomico	"Finance, Insurance, and Real Estate"	1995
+80	Wicomico	"Finance, Insurance, and Real Estate"	1996	1642	42647	233		Maryland	Wicomico	"Finance, Insurance, and Real Estate"	1996
+103	Wicomico	Manufacturing	1993	6330	145087	92		Maryland	Wicomico	Manufacturing	1993
+94	Wicomico	Manufacturing	1994	5647	151845	96		Maryland	Wicomico	Manufacturing	1994
+85	Wicomico	Manufacturing	1995	5898	161690	105		Maryland	Wicomico	Manufacturing	1995
+76	Wicomico	Manufacturing	1996	6201	166540	107		Maryland	Wicomico	Manufacturing	1996
+101	Wicomico	Mining	1993	19	0	1		Maryland	Wicomico	Mining	1993
+92	Wicomico	Mining	1994	19	0	1		Maryland	Wicomico	Mining	1994
+83	Wicomico	Mining	1995	19	0	1		Maryland	Wicomico	Mining	1995
+74	Wicomico	Mining	1996	19	0	1		Maryland	Wicomico	Mining	1996
+106	Wicomico	Retail Trade	1993	7601	94500	575		Maryland	Wicomico	Retail Trade	1993
+97	Wicomico	Retail Trade	1994	7807	97896	560		Maryland	Wicomico	Retail Trade	1994
+88	Wicomico	Retail Trade	1995	8031	104328	565		Maryland	Wicomico	Retail Trade	1995
+79	Wicomico	Retail Trade	1996	8362	107498	557		Maryland	Wicomico	Retail Trade	1996
+108	Wicomico	Services	1993	10381	216536	798		Maryland	Wicomico	Services	1993
+99	Wicomico	Services	1994	10878	227675	828		Maryland	Wicomico	Services	1994
+90	Wicomico	Services	1995	10857	241508	833		Maryland	Wicomico	Services	1995
+81	Wicomico	Services	1996	11375	258966	871		Maryland	Wicomico	Services	1996
+104	Wicomico	Transportation and Public Utilities	1993	2375	75662	120		Maryland	Wicomico	Transportation and Public Utilities	1993
+95	Wicomico	Transportation and Public Utilities	1994	2414	80650	114		Maryland	Wicomico	Transportation and Public Utilities	1994
+86	Wicomico	Transportation and Public Utilities	1995	2519	77318	113		Maryland	Wicomico	Transportation and Public Utilities	1995
+77	Wicomico	Transportation and Public Utilities	1996	2499	95383	110		Maryland	Wicomico	Transportation and Public Utilities	1996
+105	Wicomico	Wholesale Trade	1993	1912	49960	183		Maryland	Wicomico	Wholesale Trade	1993
+96	Wicomico	Wholesale Trade	1994	1889	50112	174		Maryland	Wicomico	Wholesale Trade	1994
+87	Wicomico	Wholesale Trade	1995	1971	52910	170		Maryland	Wicomico	Wholesale Trade	1995
+78	Wicomico	Wholesale Trade	1996	1993	56263	176		Maryland	Wicomico	Wholesale Trade	1996
+28	Worcester	"Agricultural Services, Forestry, and Fishing"	1993	173	3174	27		Maryland	Worcester	"Agricultural Services, Forestry, and Fishing"	1993
+19	Worcester	"Agricultural Services, Forestry, and Fishing"	1994	224	3869	32		Maryland	Worcester	"Agricultural Services, Forestry, and Fishing"	1994
+10	Worcester	"Agricultural Services, Forestry, and Fishing"	1995	204	3066	34		Maryland	Worcester	"Agricultural Services, Forestry, and Fishing"	1995
+1	Worcester	"Agricultural Services, Forestry, and Fishing"	1996	297	4050	41		Maryland	Worcester	"Agricultural Services, Forestry, and Fishing"	1996
+30	Worcester	Construction	1993	942	0	195		Maryland	Worcester	Construction	1993
+21	Worcester	Construction	1994	995	19753	212		Maryland	Worcester	Construction	1994
+12	Worcester	Construction	1995	1075	21470	225		Maryland	Worcester	Construction	1995
+3	Worcester	Construction	1996	1148	25552	248		Maryland	Worcester	Construction	1996
+35	Worcester	"Finance, Insurance, and Real Estate"	1993	1068	24690	179		Maryland	Worcester	"Finance, Insurance, and Real Estate"	1993
+26	Worcester	"Finance, Insurance, and Real Estate"	1994	1033	22371	179		Maryland	Worcester	"Finance, Insurance, and Real Estate"	1994
+17	Worcester	"Finance, Insurance, and Real Estate"	1995	1049	24017	194		Maryland	Worcester	"Finance, Insurance, and Real Estate"	1995
+8	Worcester	"Finance, Insurance, and Real Estate"	1996	1065	26982	199		Maryland	Worcester	"Finance, Insurance, and Real Estate"	1996
+31	Worcester	Manufacturing	1993	1963	32115	54		Maryland	Worcester	Manufacturing	1993
+22	Worcester	Manufacturing	1994	1869	37278	54		Maryland	Worcester	Manufacturing	1994
+13	Worcester	Manufacturing	1995	1806	29197	54		Maryland	Worcester	Manufacturing	1995
+4	Worcester	Manufacturing	1996	1812	33805	54		Maryland	Worcester	Manufacturing	1996
+29	Worcester	Mining	1993	19	0	1		Maryland	Worcester	Mining	1993
+20	Worcester	Mining	1994	19	0	1		Maryland	Worcester	Mining	1994
+11	Worcester	Mining	1995	19	0	2		Maryland	Worcester	Mining	1995
+2	Worcester	Mining	1996	19	0	2		Maryland	Worcester	Mining	1996
+34	Worcester	Retail Trade	1993	5603	94127	740		Maryland	Worcester	Retail Trade	1993
+25	Worcester	Retail Trade	1994	5895	105795	741		Maryland	Worcester	Retail Trade	1994
+16	Worcester	Retail Trade	1995	6498	113307	768		Maryland	Worcester	Retail Trade	1995
+7	Worcester	Retail Trade	1996	6280	108989	747		Maryland	Worcester	Retail Trade	1996
+36	Worcester	Services	1993	3935	74130	576		Maryland	Worcester	Services	1993
+27	Worcester	Services	1994	4241	81516	591		Maryland	Worcester	Services	1994
+18	Worcester	Services	1995	4430	86586	598		Maryland	Worcester	Services	1995
+9	Worcester	Services	1996	4377	90593	626		Maryland	Worcester	Services	1996
+32	Worcester	Transportation and Public Utilities	1993	313	7418	45		Maryland	Worcester	Transportation and Public Utilities	1993
+23	Worcester	Transportation and Public Utilities	1994	499	0	50		Maryland	Worcester	Transportation and Public Utilities	1994
+14	Worcester	Transportation and Public Utilities	1995	499	0	56		Maryland	Worcester	Transportation and Public Utilities	1995
+5	Worcester	Transportation and Public Utilities	1996	460	9448	58		Maryland	Worcester	Transportation and Public Utilities	1996
+33	Worcester	Wholesale Trade	1993	867	25227	76		Maryland	Worcester	Wholesale Trade	1993
+24	Worcester	Wholesale Trade	1994	960	30706	84		Maryland	Worcester	Wholesale Trade	1994
+15	Worcester	Wholesale Trade	1995	998	32621	83		Maryland	Worcester	Wholesale Trade	1995
+6	Worcester	Wholesale Trade	1996	1128	37477	91		Maryland	Worcester	Wholesale Trade	1996

@@ -1,0 +1,64 @@
+Project Name	Project Owner	Working Int	Budget Allocated	Budget Balance	Current Cost	Project Status	Percent Compl	Sched Finish	Project Duration(in Months)					
+STRING	STRING	FLOAT	INTEGER	INTEGER	INTEGER	STRING	INTEGER	DATE	INTEGER					
+Transceiver	"Boss, Mike"	88	100000	11000	89000	5-validation	75	7/30/2002	7		West	San Fransisco		Transceiver
+Shelf Amplifier	"Blouin, Jacques"	100	100000	-10000	110000	5-validation	90	8/10/2002	8		West	San Fransisco		Shelf Amplifier
+Splitter 	"Blouin, Jacques"	0	50000	15000	35000	4-integration	85	9/5/2002	9		West	San Fransisco		Splitter 
+Combiner	"Boardman, Roger"	0	300000	100000	200000	4-integration	70	10/31/2002	10		West	San Fransisco		Combiner
+Router-Excel	"Clark, Ellen"	12	95000	8000	87000	5-validation	95	9/18/2002	11		West	San Fransisco		Router-Excel
+Wave length switch	"Clark, Ellen"	15	20000	10000	10000	5-validation	94	8/23/2002	12		West	San Fransisco		Wave length switch
+Optical module	"Clausen, John"	25	25000	-5000	30000	6-maintenance	100	9/18/2002	7		West	San Fransisco		Optical module
+amp monitor	"Clausen, John"	33	10000	500	9500	6-maintenance	100	9/18/2002	8		West	San Fransisco		amp monitor
+digital equalizer	"Guidry, Karen"	75	150000	20000	130000	6-maintenance	100	10/3/2002	9		West	San Fransisco		digital equalizer
+Gb Ethernet	"Larkin, Steven"	50	170000	10000	160000	6-maintenance	100	10/3/2002	10		West	San Fransisco		Gb Ethernet
+Gb  Ethernet card	"Larkin, Steven"	100	120000	-30000	150000	6-maintenance	100	10/4/2002	11		West	San Fransisco		Gb  Ethernet card
+Order wire	"Larkin, Steven"	10	45000	2000	43000	6-maintenance	100	10/9/2003	12		West	San Fransisco		Order wire
+Sonet/SDH	"Larkin, Steven"	15	65000	-11000	76000	6-maintenance	100	10/19/2002	7		West	San Fransisco		Sonet/SDH
+Protect Switch	"Larkin, Steven"	50	26000	0	26000	2-design	35	4/2/2002	8		West	San Fransisco		Protect Switch
+Nodal Control Processor	"April, Robin"	100	100000	50000	50000	2-design	25	4/2/2002	9		West	San Fransisco		Nodal Control Processor
+Line Amplifier	"April, Robin"	100	200000	-100000	300000	2-design	50	4/15/2002	10		West	San Fransisco		Line Amplifier
+Multiplexer	"Philo, Donald"	83	100000	-50000	150000	2-design	45	4/20/2002	11		West	San Fransisco		Multiplexer
+Band Filter	"April, Robin G."	88	100000	50000	50000	2-design	48	4/25/2002	12		West	San Fransisco		Band Filter
+De multiplexer	"April, Robin G."	90	100000	0	100000	2-design	50	4/25/2002	7		West	San Fransisco		De multiplexer
+Regenerator	"Plaza, Joel"	1	120000	20000	100000	2-design	65	6/18/2002	8		West	San Fransisco		Regenerator
+Attenuator	"Plaza, Joel"	100	122000	22000	100000	2-design	29	7/31/2002	9		West	San Fransisco		Attenuator
+Gain Frequency Amplifier	"Plaza, Joel"	25	1000000	900000	100000	4-integration	70	8/7/2002	10		West	San Fransisco		Gain Frequency Amplifier
+Transmitter	"Plaza, Joel"	100	1000000	450000	550000	2-design	30	8/9/2002	11		East 	New York		Transmitter
+Receiver	"Plaza, Joel"	0	1000000	879000	121000	4-integration	76	8/10/2002	12		East 	New York		Receiver
+Span Control	"Philo, Donald"	100	1111000	911000	200000	2-design	54	8/16/2002	7		East 	New York		Span Control
+Multi span control	"Plaza, Joel"	0	1500000	1000000	500000	2-design	24	8/16/2002	8		East 	New York		Multi span control
+Node manager	"Plaza, Joel"	0	10000	5000	5000	2-design	45	8/16/2002	9		East 	New York		Node manager
+Optical Add drop multiplexer	"Kling, Bill"	0	10000	9000	1000	2-design	20	8/16/2002	10		East 	New York		Optical Add drop multiplexer
+Forward error correction	"Kling, Bill"	44.4	10000	9000	1000	2-design	15	8/26/2002	11		East 	New York		Forward error correction
+micro controller	"Kling, Bill"	33.3	20000	19000	1000	2-design	45	8/29/2002	12		East 	New York		micro controller
+2.5 G Transceiver	"Kling, Bill"	100	30000	29000	1000	2-design	53	10/30/2002	7		East 	New York		2.5 G Transceiver
+10G-mux	"Spark, Carla"	100	33333	12333	21000	2-design	52	11/13/2002	8		East 	New York		10G-mux
+2.5G-mux	"Boss, Mike"	100	50000	28790	21210	3-implementation	45	2/9/2003	9		East 	New York		2.5G-mux
+40G-WDM	"Boss, Mike"	83	70000	-20000	90000	3-implementation	49	4/15/2002	10		East 	New York		40G-WDM
+router-22	"Philo, Donald"	63	95000	85000	10000	3-implementation	55	4/20/2002	11		East 	New York		router-22
+drift control	"Kling, Bill"	88	100000	90000	10000	3-implementation	63	4/20/2002	12		East 	Washington DC	Virginia	drift control
+tilt control	"Philo, Donald"	100	100000	90000	10000	3-implementation	67	4/20/2002	7		East 	Washington DC	Virginia	tilt control
+FBG	"Plaza, Joel"	88	150000	30000	120000	3-implementation	45	5/11/2002	8		East 	Washington DC	Virginia	FBG
+Grating control	"Philo, Donald"	1	150000	-500	150500	3-implementation	25	5/30/2002	9		East 	Washington DC	Virginia	Grating control
+guard band	"Kling, Bill"	75	250000	147500	102500	3-implementation	67	6/22/2002	10		East 	Washington DC	Virginia	guard band
+Fish-eye control	"Philo, Donald"	33	350000	125000	225000	3-implementation	47	7/19/2002	11		East 	Washington DC	Virginia	Fish-eye control
+K-Channel	"Philo, Donald"	15	400000	150000	250000	3-implementation	68	8/16/2002	12		East 	Washington DC	Virginia	K-Channel
+C-Channel	"Boss, Mike"	1	400000	145000	255000	3-implementation	69	8/21/2002	7		East 	Washington DC	Virginia	C-Channel
+C-band	"Boss, Mike"	83	800000	520000	280000	3-implementation	59	8/21/2002	8		East 	Washington DC	Virginia	C-band
+Channel Plan	"Philo, Donald"	0	868000	518000	350000	3-implementation	60	10/4/2002	9		East 	Washington DC	Virginia	Channel Plan
+C-band amp	"Spark, Carla"	0	1000000	600000	400000	3-implementation	59	10/8/2002	10		East 	Washington DC	Maryland	C-band amp
+Amp Control	"Philo, Donald"	33	1005000	5000	1000000	4-integration	89	8/24/2002	11		East 	Washington DC	Maryland	Amp Control
+node manager 3.0	"Plaza, Joel"	0	750000	-10000	760000	5-validation	96	8/31/2002	12		East 	Washington DC	Maryland	node manager 3.0
+node manager 4.0	"Spark, Carla"	90	1500000	445000	1055000	4-integration	90	8/31/2002	7		East 	Washington DC	Maryland	node manager 4.0
+Network monitor	"Plaza, Joel"	100	2000000	300000	1700000	5-validation	88	10/5/2002	8		East 	Washington DC	Maryland	Network monitor
+Photonics	"Kling, Bill"	100	2000000	750000	1250000	5-validation	90	10/6/2002	9		East 	Washington DC	Maryland	Photonics
+Cisco view 3.1	"Philo, Donald"	0	550000	335000	215000	4-integration	87	10/19/2002	10		East 	Washington DC	Maryland	Cisco view 3.1
+tl1	"Philo, Donald"	0	250000	100000	150000	"1-Scoping, Requirements analysis and specifications"	5	9/30/2002	11		East 	Washington DC	Maryland	tl1
+snmp	"Boss, Mike"	60	250000	227500	22500	"1-Scoping, Requirements analysis and specifications"	5	1/29/2002	12		East 	Washington DC	Maryland	snmp
+GDMO 	"Philo, Donald"	20	300000	267750	32250	"1-Scoping, Requirements analysis and specifications"	5	7/31/2002	7		East 	Washington DC	Maryland	GDMO 
+Q3 core	"Boss, Mike"	25	300000	-125000	425000	"1-Scoping, Requirements analysis and specifications"	5	8/8/2002	8		East 	Washington DC	Maryland	Q3 core
+Event manager	"Jones, Julie D"	12	450000	25000	425000	"1-Scoping, Requirements analysis and specifications"	5	8/24/2002	9		East 	Washington DC	Maryland	Event manager
+New Facility	"Jones, Julie D"	90	500000	0	500000	"1-Scoping, Requirements analysis and specifications"	0	9/5/2002	10		East 	Washington DC	Maryland	New Facility
+Call backs	"Jones, Julie D"	100	50000	-25000	75000	"1-Scoping, Requirements analysis and specifications"	8	9/11/2002	11		East 	Washington DC	Maryland	Call backs
+Craft	"Jones, Julie D"	1	67000	-18000	85000	"1-Scoping, Requirements analysis and specifications"	15	9/29/2002	12		East 	Washington DC	Maryland	Craft
+Integrated Craft	"Peter, Steve"	88	70000	58000	12000	"1-Scoping, Requirements analysis and specifications"	20	10/1/2002	7		East 	Washington DC	Maryland	Integrated Craft
+Light works	"Peter, Steve"	100	25000	12622	12378	"1-Scoping, Requirements analysis and specifications"	2	10/11/2002	8		East 	Washington DC	Maryland	Light works

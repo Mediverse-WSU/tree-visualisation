@@ -1,0 +1,45 @@
+"Cause of, death"	"1981 Deaths, per 100,000"	"1998 Deaths, per 100,000"	"1998-1981 rate, change "	"(% change, since 81)"	Cause of Death Codes				
+STRING	FLOAT	FLOAT	FLOAT	FLOAT	STRING				
+     Septicemia	28.4	55.3	26.9	94.71830986	38		" Deaths_per_100,000_Age_65+(crude)"	Infectious and parasitic diseases	     Septicemia
+     Other Infectious and parasitic diseases	14.4	20.6	6.2	43.05555556	diff		" Deaths_per_100,000_Age_65+(crude)"	Infectious and parasitic diseases	     Other Infectious and parasitic diseases
+"  - of lip, oral, pharynx"	17.3	13.9	-3.4	-19.65317919	140-149		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	"  - of lip, oral, pharynx"
+  - of digestive organs	298.6	276.1	-22.5	-7.535164099	150-159		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of digestive organs
+  - of respiratory organs	242.3	330.1	87.8	36.23607099	160-165		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of respiratory organs
+  - of breast	72.4	71.9	-0.5	-0.690607735	174-175		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of breast
+  - of genital organs	129.3	135.1	5.8	4.485692189	179-187		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of genital organs
+  - of urinary organs	49.7	52.6	2.9	5.83501006	188-189		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of urinary organs
+  - of lymph./hemotopoietic tissues	88.1	115.3	27.2	30.87400681	200-208		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  - of lymph./hemotopoietic tissues
+  Leukemia	37.5	41.6	4.1	10.93333333	204-208		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  Leukemia
+  Other malignant neoplasms	74.5	80.2	5.7	7.651006711	diff		" Deaths_per_100,000_Age_65+(crude)"	Malignant neoplasms	  Other malignant neoplasms
+Benign neoplasms	15.3	16.9	1.6	10.45751634	210-239		" Deaths_per_100,000_Age_65+(crude)"	Benign neoplasms	
+Diabetes mellitus	97.1	142.4	45.3	46.65293512	250		" Deaths_per_100,000_Age_65+(crude)"	Diabetes mellitus	
+Nutritional deficiencies	7.7	11.1	3.4	44.15584416	260-269		" Deaths_per_100,000_Age_65+(crude)"	Nutritional deficiencies	
+Anemia	8.9	10.3	1.4	15.73033708	280-285		" Deaths_per_100,000_Age_65+(crude)"	Anemia			
+Alzheimer's disease	5.5	65.2	59.7	1085.454545	331		" Deaths_per_100,000_Age_65+(crude)"	Alzheimer's disease			
+  Hypertension	23.6	35.7	12.1	51.27118644	"401, 403"		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Hypertension		
+   Rheumatic	17.8	10.5	-7.3	-41.01123596	390-398		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	   Rheumatic	
+  Hypertensive heart disease	57	60.4	3.4	5.964912281	402		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  Hypertensive heart disease	
+  Hypertensive heart & renal dis.	11.4	6	-5.4	-47.36842105	404		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  Hypertensive heart & renal dis.	
+  Acute myocardial infarction	824.8	482.7	-342.1	-41.47672163	410		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  Ischemic heart disease	  Acute myocardial infarction
+  Old myocardial infarction	834.6	646.2	-188.4	-22.57368799	"412, 414"		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  Ischemic heart disease	  Old myocardial infarction
+  Other Ischemic heart disease	13	7.9	-5.1	-39.23076923	diff		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  Ischemic heart disease	  Other Ischemic heart disease
+  Other diseases of the heart	505.4	552.9	47.5	9.398496241	diff		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Diseases of the heart	  other diseases of the heart	
+      Intra cerebr./cranial hemorrhage	50.6	56.5	5.9	11.66007905	431-432		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Cerebrovascular disease	      Intra cerebr./cranial hemorrhage	
+      Cerebral thromb./unspec. occl. of arteries	107.7	28.6	-79.1	-73.44475395	"434.0, 434.9"		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Cerebrovascular disease	      Cerebral thromb./unspec. occl. of arteries	
+      Other/late effects of cerebrovascular dis.	374.4	317.9	-56.5	-15.09081197	"430, 433, 435-438"		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Cerebrovascular disease	      Other/late effects of cerebrovascular dis.	
+      Other cerebrovascular disease	2.5	1.5	-1	-40	diff		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Cerebrovascular disease	      Other cerebrovascular disease	
+  Atherosclerosis	101.4	42.1	-59.3	-58.48126233	440		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	  Atherosclerosis		
+"  Oth. dis. of arteries, arterioles, capillaries"	60.5	67.8	7.3	12.0661157	441-448		" Deaths_per_100,000_Age_65+(crude)"	Cardiovascular diseases	"  Oth. dis. of arteries, arterioles, capillaries"		
+    Pneumonia	162.2	236.6	74.4	45.86929716	480-486		" Deaths_per_100,000_Age_65+(crude)"	Pneumonia and influenza	    Pneumonia
+    Other (non-pneumonia)	10.4	4.6	-5.8	-55.76923077	diff		" Deaths_per_100,000_Age_65+(crude)"	Pneumonia and influenza	    Other (non-pneumonia)
+"  Bronchitis, chronic and unspec."	11.2	7.4	-3.8	-33.92857143	490-491		" Deaths_per_100,000_Age_65+(crude)"	COPD & allied conditions	"  Bronchitis, chronic and unspec."
+  Emphysema	39.5	43.5	4	10.12658228	492		" Deaths_per_100,000_Age_65+(crude)"	COPD & allied conditions	  Emphysema
+  Other COPD & allied conditions	125.4	233.7	108.3	86.36363636	diff		" Deaths_per_100,000_Age_65+(crude)"	COPD & allied conditions	  Other COPD & allied conditions
+Ulcer of stomach/duodenum	18.8	11.2	-7.6	-40.42553191	531-533		" Deaths_per_100,000_Age_65+(crude)"	Ulcer of stomach/duodenum	
+Hernia/intestinal obstruction	16.5	16.9	0.4	2.424242424	"550-553, 560"		" Deaths_per_100,000_Age_65+(crude)"	Hernia/intestinal obstruction	
+Chronic liver dis. & cirrhosis	36.7	29.8	-6.9	-18.80108992	571		" Deaths_per_100,000_Age_65+(crude)"	Chronic liver dis. & cirrhosis	
+Cholelithiasis/gallbladder disorder	10	7.1	-2.9	-29	574-575		" Deaths_per_100,000_Age_65+(crude)"	Cholelithiasis/gallbladder disorder	
+      Renal failure/imp. ren. funct.	45.2	60.9	15.7	34.73451327	"584-586, 588-589"		" Deaths_per_100,000_Age_65+(crude)"	"Nephritis, nephr. synd. & nephrosis"	      Renal failure/imp. ren. funct.
+      Other non renal failure	7.1	4.9	-2.2	-30.98591549	diff		" Deaths_per_100,000_Age_65+(crude)"	"Nephritis, nephr. synd. & nephrosis"	      Other non renal failure
+Accidents & adverse effects	91	95.8	4.8	5.274725275	800-949		" Deaths_per_100,000_Age_65+(crude)"	Accidents & adverse effects	
+Other causes of deaths	386.3	594.6	208.3	53.92182242	diff		" Deaths_per_100,000_Age_65+(crude)"	Other causes of deaths	

@@ -1,0 +1,162 @@
+Cause of death	Gender	Race	Age	Number of Deaths	Cause of Death Code
+STRING	STRING	STRING	STRING	INTEGER	STRING
+Accidental discharge of Firearms	Male	White	Under 1	0	W32-W34
+Accidental discharge of Firearms	Male	White	1 - 4 years	3	W32-W34
+Accidental discharge of Firearms	Male	White	5 - 9 years	4	W32-W34
+Accidental discharge of Firearms	Male	White	10 -14 years	42	W32-W34
+Accidental discharge of Firearms	Male	White	15 - 19 years	80	W32-W34
+Accidental discharge of Firearms	Male	White	20 - 24 years	78	W32-W34
+Accidental discharge of Firearms	Male	White	25 - 29 years	49	W32-W34
+Accidental discharge of Firearms	Male	White	30 - 34 years	47	W32-W34
+Accidental discharge of Firearms	Male	White	35 - 39 years	46	W32-W34
+Accidental discharge of Firearms	Male	White	40 - 44 years	48	W32-W34
+Accidental discharge of Firearms	Female	White	Under 1	0	W32-W34
+Accidental discharge of Firearms	Female	White	1 - 4 years	2	W32-W34
+Accidental discharge of Firearms	Female	White	5 - 9 years	5	W32-W34
+Accidental discharge of Firearms	Female	White	10 -14 years	6	W32-W34
+Accidental discharge of Firearms	Female	White	15 - 19 years	8	W32-W34
+Accidental discharge of Firearms	Female	White	20 - 24 years	8	W32-W34
+Accidental discharge of Firearms	Female	White	25 - 29 years	13	W32-W34
+Accidental discharge of Firearms	Female	White	30 - 34 years	6	W32-W34
+Accidental discharge of Firearms	Female	White	35 - 39 years	10	W32-W34
+Accidental discharge of Firearms	Female	White	40 - 44 years	12	W32-W34
+Accidental discharge of Firearms	Male	Black	Under 1	0	W32-W34
+Accidental discharge of Firearms	Male	Black	1 - 4 years	4	W32-W34
+Accidental discharge of Firearms	Male	Black	5 - 9 years	8	W32-W34
+Accidental discharge of Firearms	Male	Black	10 -14 years	4	W32-W34
+Accidental discharge of Firearms	Male	Black	15 - 19 years	33	W32-W34
+Accidental discharge of Firearms	Male	Black	20 - 24 years	28	W32-W34
+Accidental discharge of Firearms	Male	Black	25 - 29 years	12	W32-W34
+Accidental discharge of Firearms	Male	Black	30 - 34 years	10	W32-W34
+Accidental discharge of Firearms	Male	Black	35 - 39 years	8	W32-W34
+Accidental discharge of Firearms	Male	Black	40 - 44 years	8	W32-W34
+Accidental discharge of Firearms	Female	Black	Under 1	0	W32-W34
+Accidental discharge of Firearms	Female	Black	1 - 4 years	3	W32-W34
+Accidental discharge of Firearms	Female	Black	5 - 9 years	1	W32-W34
+Accidental discharge of Firearms	Female	Black	10 -14 years	4	W32-W34
+Accidental discharge of Firearms	Female	Black	15 - 19 years	3	W32-W34
+Accidental discharge of Firearms	Female	Black	20 - 24 years	3	W32-W34
+Accidental discharge of Firearms	Female	Black	25 - 29 years	0	W32-W34
+Accidental discharge of Firearms	Female	Black	30 - 34 years	1	W32-W34
+Accidental discharge of Firearms	Female	Black	35 - 39 years	1	W32-W34
+Accidental discharge of Firearms	Female	Black	40 - 44 years	1	W32-W34
+Intentional Self-Harm	Male	White	Under 1	0	X72-X74
+Intentional Self-Harm	Male	White	1 - 4 years	0	X72-X74
+Intentional Self-Harm	Male	White	5 - 9 years	0	X72-X74
+Intentional Self-Harm	Male	White	10 -14 years	72	X72-X74
+Intentional Self-Harm	Male	White	15 - 19 years	724	X72-X74
+Intentional Self-Harm	Male	White	20 - 24 years	983	X72-X74
+Intentional Self-Harm	Male	White	25 - 29 years	945	X72-X74
+Intentional Self-Harm	Male	White	30 - 34 years	993	X72-X74
+Intentional Self-Harm	Male	White	35 - 39 years	1200	X72-X74
+Intentional Self-Harm	Male	White	40 - 44 years	1149	X72-X74
+Intentional Self-Harm	Female	White	Under 1	0	X72-X74
+Intentional Self-Harm	Female	White	1 - 4 years	0	X72-X74
+Intentional Self-Harm	Female	White	5 - 9 years	0	X72-X74
+Intentional Self-Harm	Female	White	10 -14 years	22	X72-X74
+Intentional Self-Harm	Female	White	15 - 19 years	93	X72-X74
+Intentional Self-Harm	Female	White	20 - 24 years	99	X72-X74
+Intentional Self-Harm	Female	White	25 - 29 years	136	X72-X74
+Intentional Self-Harm	Female	White	30 - 34 years	179	X72-X74
+Intentional Self-Harm	Female	White	35 - 39 years	252	X72-X74
+Intentional Self-Harm	Female	White	40 - 44 years	232	X72-X74
+Intentional Self-Harm	Male	Black	Under 1	0	X72-X74
+Intentional Self-Harm	Male	Black	1 - 4 years	0	X72-X74
+Intentional Self-Harm	Male	Black	5 - 9 years	0	X72-X74
+Intentional Self-Harm	Male	Black	10 -14 years	4	X72-X74
+Intentional Self-Harm	Male	Black	15 - 19 years	109	X72-X74
+Intentional Self-Harm	Male	Black	20 - 24 years	189	X72-X74
+Intentional Self-Harm	Male	Black	25 - 29 years	144	X72-X74
+Intentional Self-Harm	Male	Black	30 - 34 years	106	X72-X74
+Intentional Self-Harm	Male	Black	35 - 39 years	113	X72-X74
+Intentional Self-Harm	Male	Black	40 - 44 years	66	X72-X74
+Intentional Self-Harm	Female	Black	Under 1	0	X72-X74
+Intentional Self-Harm	Female	Black	1 - 4 years	0	X72-X74
+Intentional Self-Harm	Female	Black	5 - 9 years	0	X72-X74
+Intentional Self-Harm	Female	Black	10 -14 years	1	X72-X74
+Intentional Self-Harm	Female	Black	15 - 19 years	11	X72-X74
+Intentional Self-Harm	Female	Black	20 - 24 years	18	X72-X74
+Intentional Self-Harm	Female	Black	25 - 29 years	12	X72-X74
+Intentional Self-Harm	Female	Black	30 - 34 years	10	X72-X74
+Intentional Self-Harm	Female	Black	35 - 39 years	12	X72-X74
+Intentional Self-Harm	Female	Black	40 - 44 years	8	X72-X74
+Assault	Male	White	Under 1	4	X93-X95
+Assault	Male	White	1 - 4 years	14	X93-X95
+Assault	Male	White	5 - 9 years	20	X93-X95
+Assault	Male	White	10 -14 years	66	X93-X95
+Assault	Male	White	15 - 19 years	567	X93-X95
+Assault	Male	White	20 - 24 years	688	X93-X95
+Assault	Male	White	25 - 29 years	568	X93-X95
+Assault	Male	White	30 - 34 years	440	X93-X95
+Assault	Male	White	35 - 39 years	408	X93-X95
+Assault	Male	White	40 - 44 years	328	X93-X95
+Assault	Female	White	Under 1	0	X93-X95
+Assault	Female	White	1 - 4 years	12	X93-X95
+Assault	Female	White	5 - 9 years	12	X93-X95
+Assault	Female	White	10 -14 years	29	X93-X95
+Assault	Female	White	15 - 19 years	95	X93-X95
+Assault	Female	White	20 - 24 years	134	X93-X95
+Assault	Female	White	25 - 29 years	107	X93-X95
+Assault	Female	White	30 - 34 years	122	X93-X95
+Assault	Female	White	35 - 39 years	147	X93-X95
+Assault	Female	White	40 - 44 years	128	X93-X95
+Assault	Male	Black	Under 1	1	X93-X95
+Assault	Male	Black	1 - 4 years	7	X93-X95
+Assault	Male	Black	5 - 9 years	15	X93-X95
+Assault	Male	Black	10 -14 years	46	X93-X95
+Assault	Male	Black	15 - 19 years	883	X93-X95
+Assault	Male	Black	20 - 24 years	1344	X93-X95
+Assault	Male	Black	25 - 29 years	961	X93-X95
+Assault	Male	Black	30 - 34 years	576	X93-X95
+Assault	Male	Black	35 - 39 years	378	X93-X95
+Assault	Male	Black	40 - 44 years	265	X93-X95
+Assault	Female	Black	Under 1	1	X93-X95
+Assault	Female	Black	1 - 4 years	11	X93-X95
+Assault	Female	Black	5 - 9 years	8	X93-X95
+Assault	Female	Black	10 -14 years	13	X93-X95
+Assault	Female	Black	15 - 19 years	108	X93-X95
+Assault	Female	Black	20 - 24 years	115	X93-X95
+Assault	Female	Black	25 - 29 years	107	X93-X95
+Assault	Female	Black	30 - 34 years	80	X93-X95
+Assault	Female	Black	35 - 39 years	90	X93-X95
+Assault	Female	Black	40 - 44 years	71	X93-X95
+Legal Intervention	Male	White	Under 1	0	Y35
+Legal Intervention	Male	White	1 - 4 years	0	Y35
+Legal Intervention	Male	White	5 - 9 years	0	Y35
+Legal Intervention	Male	White	10 -14 years	0	Y35
+Legal Intervention	Male	White	15 - 19 years	8	Y35
+Legal Intervention	Male	White	20 - 24 years	20	Y35
+Legal Intervention	Male	White	25 - 29 years	34	Y35
+Legal Intervention	Male	White	30 - 34 years	38	Y35
+Legal Intervention	Male	White	35 - 39 years	29	Y35
+Legal Intervention	Male	White	40 - 44 years	21	Y35
+Legal Intervention	Female	White	Under 1	0	Y35
+Legal Intervention	Female	White	1 - 4 years	0	Y35
+Legal Intervention	Female	White	5 - 9 years	0	Y35
+Legal Intervention	Female	White	10 -14 years	0	Y35
+Legal Intervention	Female	White	15 - 19 years	0	Y35
+Legal Intervention	Female	White	20 - 24 years	0	Y35
+Legal Intervention	Female	White	25 - 29 years	0	Y35
+Legal Intervention	Female	White	30 - 34 years	0	Y35
+Legal Intervention	Female	White	35 - 39 years	3	Y35
+Legal Intervention	Female	White	40 - 44 years	1	Y35
+Legal Intervention	Male	Black	Under 1	0	Y35
+Legal Intervention	Male	Black	1 - 4 years	0	Y35
+Legal Intervention	Male	Black	5 - 9 years	0	Y35
+Legal Intervention	Male	Black	10 -14 years	1	Y35
+Legal Intervention	Male	Black	15 - 19 years	10	Y35
+Legal Intervention	Male	Black	20 - 24 years	22	Y35
+Legal Intervention	Male	Black	25 - 29 years	18	Y35
+Legal Intervention	Male	Black	30 - 34 years	15	Y35
+Legal Intervention	Male	Black	35 - 39 years	12	Y35
+Legal Intervention	Male	Black	40 - 44 years	8	Y35
+Legal Intervention	Female	Black	Under 1	0	Y35
+Legal Intervention	Female	Black	1 - 4 years	0	Y35
+Legal Intervention	Female	Black	5 - 9 years	0	Y35
+Legal Intervention	Female	Black	10 -14 years	0	Y35
+Legal Intervention	Female	Black	15 - 19 years	0	Y35
+Legal Intervention	Female	Black	20 - 24 years	0	Y35
+Legal Intervention	Female	Black	25 - 29 years	0	Y35
+Legal Intervention	Female	Black	30 - 34 years	1	Y35
+Legal Intervention	Female	Black	35 - 39 years	0	Y35
+Legal Intervention	Female	Black	40 - 44 years	0	Y35

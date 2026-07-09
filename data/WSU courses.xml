@@ -1,0 +1,2763 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE tree SYSTEM "data/treeml.dtd">
+<tree>
+<declarations>
+<attributeDecl name="name" type="String"/>
+<attributeDecl name="type" type="Integer"/>
+<attributeDecl name="link" type="String"/>
+<attributeDecl name="flag" type="Integer"/>
+<attributeDecl name="weight" type="Double"/>
+</declarations>
+
+<branch id="0">
+	<attribute name="name" value="Western Sydney University"/>
+	<attribute name="type" value="0"/>
+	<attribute name="link" value=""/>
+	<attribute name="flag" value="0"/>
+	<attribute name="weight" value="0.0"/>
+	<branch id="1">
+		<attribute name="name" value="School of Business"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="2">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Business (Advanced Business Leadership)">
+				<attribute name="name" value="Bachelor of Business (Advanced Business Leadership)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Accounting">
+				<attribute name="name" value="Bachelor of Accounting"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business">
+				<attribute name="name" value="Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Accounting">
+				<attribute name="name" value="Accounting"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Applied Finance">
+				<attribute name="name" value="Applied Finance"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Economics">
+				<attribute name="name" value="Economics"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Hospitality Management">
+				<attribute name="name" value="Hospitality Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Human Resources Management">
+				<attribute name="name" value="Human Resources Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="International Business">
+				<attribute name="name" value="International Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Management">
+				<attribute name="name" value="Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Marketing">
+				<attribute name="name" value="Marketing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Property">
+				<attribute name="name" value="Property"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Sport management">
+				<attribute name="name" value="Sport management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business Administration">
+				<attribute name="name" value="Bachelor of Business Administration"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Applied Leadership">
+				<attribute name="name" value="Bachelor of Applied Leadership"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="62">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Executive Master of Business Administration">
+				<attribute name="name" value="Executive Master of Business Administration"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Business Administration">
+				<attribute name="name" value="Master of Business Administration"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Business">
+				<attribute name="name" value="Graduate Certificate in Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Postgraduate Qualifying Program (School of&#10;Business)">
+				<attribute name="name" value="Postgraduate Qualifying Program (School of&#10;Business)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Applied Finance">
+				<attribute name="name" value="Master of Applied Finance"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="82">
+			<attribute name="name" value="Double degree"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Arts / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business / Bachelor of Applied&#10;Leadership and Critical Thinking">
+				<attribute name="name" value="Bachelor of Business / Bachelor of Applied&#10;Leadership and Critical Thinking"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication (Advertising and Public&#10;Relations) / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Communication (Advertising and Public&#10;Relations) / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science/ Bachelor of Business">
+				<attribute name="name" value="Bachelor of Science/ Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology/ Bachelor of Business">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology/ Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology/ Bachelor of Business (Accounting)">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology/ Bachelor of Business (Accounting)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Business / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business (Advanced Business&#10;Leadership)/ Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Business (Advanced Business&#10;Leadership)/ Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies/Bachelor of&#10;Business">
+				<attribute name="name" value="Bachelor of International Studies/Bachelor of&#10;Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="117">
+		<attribute name="name" value="School of Computing, Engineering and Mathematics"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="118">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Building Design Management">
+				<attribute name="name" value="Bachelor of Building Design Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Computer Science">
+				<attribute name="name" value="Bachelor of Computer Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Computer Science (Advanced)">
+				<attribute name="name" value="Bachelor of Computer Science (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Construction Management">
+				<attribute name="name" value="Bachelor of Construction Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Construction Technology">
+				<attribute name="name" value="Bachelor of Construction Technology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Data Science">
+				<attribute name="name" value="Bachelor of Data Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Design and Technology">
+				<attribute name="name" value="Bachelor of Design and Technology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Engineering Advanced (Honours)">
+				<attribute name="name" value="Bachelor of Engineering Advanced (Honours)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Engineering Honours&apos;(Key Programs&#10;in Civil, Construction, Electrical, Mechanical,&#10;Robotics and Mechatronics)">
+				<attribute name="name" value="Bachelor of Engineering Honours&apos;(Key Programs&#10;in Civil, Construction, Electrical, Mechanical,&#10;Robotics and Mechatronics)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Entrepreneurship (Games Design and&#10;Simulation)">
+				<attribute name="name" value="Bachelor of Entrepreneurship (Games Design and&#10;Simulation)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Industrial Design">
+				<attribute name="name" value="Bachelor of Industrial Design"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology (ICT) Advanced">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology (ICT) Advanced"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology (ICT)">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology (ICT)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology (Health Information Management)">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology (Health Information Management)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information Systems">
+				<attribute name="name" value="Bachelor of Information Systems"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information Systems (Advanced)">
+				<attribute name="name" value="Bachelor of Information Systems (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="182">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Graduate Certificate in Bushfire Protection">
+				<attribute name="name" value="Graduate Certificate in Bushfire Protection"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Engineering">
+				<attribute name="name" value="Graduate Certificate in Engineering"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Fire Safety Engineering">
+				<attribute name="name" value="Graduate Certificate in Fire Safety Engineering"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Information Communications&#10;Technology">
+				<attribute name="name" value="Graduate Certificate in Information Communications&#10;Technology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Building Surveying">
+				<attribute name="name" value="Graduate Diploma in Building Surveying"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Bushfire Protection">
+				<attribute name="name" value="Graduate Diploma in Bushfire Protection"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Fire Safety Engineering">
+				<attribute name="name" value="Graduate Diploma in Fire Safety Engineering"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Information Communications&#10;Technology">
+				<attribute name="name" value="Graduate Diploma in Information Communications&#10;Technology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Building Surveying">
+				<attribute name="name" value="Master of Building Surveying"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Bushfire Protection">
+				<attribute name="name" value="Master of Bushfire Protection"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Data Science">
+				<attribute name="name" value="Master of Data Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Engineering">
+				<attribute name="name" value="Master of Engineering"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Fire Safety Engineering">
+				<attribute name="name" value="Master of Fire Safety Engineering"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Information and Communications&#10;Technologies">
+				<attribute name="name" value="Master of Information and Communications&#10;Technologies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Information and Communications&#10;Technologies (Advanced)">
+				<attribute name="name" value="Master of Information and Communications&#10;Technologies (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Planning">
+				<attribute name="name" value="Master of Planning"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Information Communications&#10;Technologies">
+				<attribute name="name" value="Graduate Diploma in Information Communications&#10;Technologies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Information and&#10;Communications Technologies">
+				<attribute name="name" value="Graduate Certificate in Information and&#10;Communications Technologies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Data Science&apos;Double Degrees">
+				<attribute name="name" value="Bachelor of Data Science&apos;Double Degrees"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology / Bachelor of Arts">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology / Bachelor of Arts"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology / Bachelor of Business (Accounting)">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology / Bachelor of Business (Accounting)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology/ Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology/ Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Construction Management&#10;Studies/Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Construction Management&#10;Studies/Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="278">
+			<attribute name="name" value="Honours Courses"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Science (Honours) Mathematics">
+				<attribute name="name" value="Bachelor of Science (Honours) Mathematics"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Engineering Advanced&#10;(Honours)&apos;(embedded)">
+				<attribute name="name" value="Bachelor of Engineering Advanced&#10;(Honours)&apos;(embedded)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Industrial Design&#10;(Honours)&apos;(embedded)">
+				<attribute name="name" value="Bachelor of Industrial Design&#10;(Honours)&apos;(embedded)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="289">
+		<attribute name="name" value="School of education"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="290">
+			<attribute name="name" value="Undergraduate Teacher Education"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+				<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Education (Primary) Aboriginal and&#10;Torres Strait Islander Education">
+				<attribute name="name" value="Bachelor of Education (Primary) Aboriginal and&#10;Torres Strait Islander Education"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business/ Pathway to Teaching Secondary">
+				<attribute name="name" value="Bachelor of Business/ Pathway to Teaching Secondary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+				<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="306">
+			<attribute name="name" value="Teacher education"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<branch id="307">
+				<attribute name="name" value="Early Childhood Courses"/>
+				<attribute name="type" value="1"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+				<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+					<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Teaching (Birth-5 Years/Birth-12 Years)">
+					<attribute name="name" value="Master of Teaching (Birth-5 Years/Birth-12 Years)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Arts (Pathway to Teaching Birth -&#10;5/Birth - 12)">
+					<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Birth -&#10;5/Birth - 12)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Business/ Pathway to Teaching Secondary">
+					<attribute name="name" value="Bachelor of Business/ Pathway to Teaching Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+					<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+			</branch>
+			<branch id="332">
+				<attribute name="name" value="Primary Teaching Courses"/>
+				<attribute name="type" value="1"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+				<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+					<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Arts (Pathway to Teaching Primary)">
+					<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Primary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Education (Primary) Aboriginal and&#10;Torres Strait Islander Education">
+					<attribute name="name" value="Bachelor of Education (Primary) Aboriginal and&#10;Torres Strait Islander Education"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Business/ Pathway to Teaching Secondary">
+					<attribute name="name" value="Bachelor of Business/ Pathway to Teaching Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+					<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+			</branch>
+			<branch id="357">
+				<attribute name="name" value="Secondary Teaching Courses"/>
+				<attribute name="type" value="1"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+				<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+					<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Science -Pathway to Teaching&#10;(Primary/Secondary)">
+					<attribute name="name" value="Bachelor of Science -Pathway to Teaching&#10;(Primary/Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Arts (Pathway to Teaching Secondary)">
+					<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Teaching (Secondary)">
+					<attribute name="name" value="Master of Teaching (Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Business/ Pathway to Teaching Secondary">
+					<attribute name="name" value="Bachelor of Business/ Pathway to Teaching Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Graduate Certificate in Education (Curriculum&#10;Specialisation)">
+					<attribute name="name" value="Graduate Certificate in Education (Curriculum&#10;Specialisation)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+					<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Teaching (Secondary) STEM">
+					<attribute name="name" value="Master of Teaching (Secondary) STEM"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+			</branch>
+		</branch>
+		<branch id="396">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<branch id="397">
+				<attribute name="name" value="STEM courses"/>
+				<attribute name="type" value="1"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+				<leaf id="Master of Education (STEM)">
+					<attribute name="name" value="Master of Education (STEM)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Graduate Certificate in Primary Science Education">
+					<attribute name="name" value="Graduate Certificate in Primary Science Education"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Graduate Certificate in Primary Mathematics&#10;Education">
+					<attribute name="name" value="Graduate Certificate in Primary Mathematics&#10;Education"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Teaching (Secondary) STEM">
+					<attribute name="name" value="Master of Teaching (Secondary) STEM"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+			</branch>
+			<branch id="417">
+				<attribute name="name" value="Social Ecology"/>
+				<attribute name="type" value="1"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+				<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+					<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Education (Social Ecology)">
+					<attribute name="name" value="Master of Education (Social Ecology)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Business/ Pathway to Teaching Secondary">
+					<attribute name="name" value="Bachelor of Business/ Pathway to Teaching Secondary"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+					<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Graduate Certificate in Education (Social Ecology)">
+					<attribute name="name" value="Graduate Certificate in Education (Social Ecology)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Master of Teaching (Secondary) STEM">
+					<attribute name="name" value="Master of Teaching (Secondary) STEM"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+				<leaf id="Graduate Certificate in Language Teaching and&#10;Bilingualism (Birth-12 years)">
+					<attribute name="name" value="Graduate Certificate in Language Teaching and&#10;Bilingualism (Birth-12 years)"/>
+					<attribute name="type" value="2"/>
+					<attribute name="link" value=""/>
+					<attribute name="flag" value="0"/>
+					<attribute name="weight" value="0.0"/>
+				</leaf>
+			</branch>
+		</branch>
+	</branch>
+	<branch id="450">
+		<attribute name="name" value="School of Humanities and Communication Arts"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="451">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Language and Linguistics">
+				<attribute name="name" value="Bachelor of Language and Linguistics"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Sociology">
+				<attribute name="name" value="Bachelor of Arts - Sociology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Peace and Development Studies">
+				<attribute name="name" value="Bachelor of Arts - Peace and Development Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Global Business">
+				<attribute name="name" value="Bachelor of Arts - Global Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Heritage and Tourism">
+				<attribute name="name" value="Bachelor of Arts - Heritage and Tourism"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Organisations and Work">
+				<attribute name="name" value="Bachelor of Arts - Organisations and Work"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - International English">
+				<attribute name="name" value="Bachelor of Arts - International English"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Criminology and Criminal Justice">
+				<attribute name="name" value="Bachelor of Arts - Criminology and Criminal Justice"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Creative Writing">
+				<attribute name="name" value="Bachelor of Arts - Creative Writing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Geography and Urban Studies">
+				<attribute name="name" value="Bachelor of Arts - Geography and Urban Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Anthropology">
+				<attribute name="name" value="Bachelor of Arts - Anthropology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Innovation and Change">
+				<attribute name="name" value="Bachelor of Arts - Innovation and Change"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Musicology">
+				<attribute name="name" value="Bachelor of Arts - Musicology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Music Performance">
+				<attribute name="name" value="Bachelor of Arts - Music Performance"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Music / Bachelor of Creative Industries">
+				<attribute name="name" value="Bachelor of Music / Bachelor of Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Economy and Markets">
+				<attribute name="name" value="Bachelor of Arts - Economy and Markets"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Design / Bachelor of Creative&#10;Industries">
+				<attribute name="name" value="Bachelor of Design / Bachelor of Creative&#10;Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor Psychological Studies (Honours)">
+				<attribute name="name" value="Bachelor Psychological Studies (Honours)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary">
+				<attribute name="name" value="Bachelor of Graphic Design / Pathway to Teaching&#10;Secondary"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Design (Visual Communication)">
+				<attribute name="name" value="Bachelor of Design (Visual Communication)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Music">
+				<attribute name="name" value="Bachelor of Music"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Pathway to Teaching Secondary)">
+				<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Secondary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Pathway to Teaching Primary)">
+				<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Primary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Pathway to Teaching Birth -&#10;5/Birth - 12)">
+				<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Birth -&#10;5/Birth - 12)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Dean&apos;s Scholars)">
+				<attribute name="name" value="Bachelor of Arts (Dean&apos;s Scholars)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Islamic Studies Major">
+				<attribute name="name" value="Bachelor of Arts - Islamic Studies Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - International Relations and&#10;Asian Studies Major">
+				<attribute name="name" value="Bachelor of Arts - International Relations and&#10;Asian Studies Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Cultural and Social Analysis&#10;Major">
+				<attribute name="name" value="Bachelor of Arts - Cultural and Social Analysis&#10;Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - English Major">
+				<attribute name="name" value="Bachelor of Arts - English Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - History and Political Thought&#10;Major">
+				<attribute name="name" value="Bachelor of Arts - History and Political Thought&#10;Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies">
+				<attribute name="name" value="Bachelor of International Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Communication / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology / Bachelor of Arts">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology / Bachelor of Arts"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of Arts">
+				<attribute name="name" value="Bachelor of Science / Bachelor of Arts"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of International&#10;Studies">
+				<attribute name="name" value="Bachelor of Science / Bachelor of International&#10;Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Philosophy Major">
+				<attribute name="name" value="Bachelor of Arts - Philosophy Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Linguistics Major">
+				<attribute name="name" value="Bachelor of Arts - Linguistics Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Interpreting and Translation)&#10;Dean&apos;s Scholars">
+				<attribute name="name" value="Bachelor of Arts (Interpreting and Translation)&#10;Dean&apos;s Scholars"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies / Bachelor of&#10;Business">
+				<attribute name="name" value="Bachelor of International Studies / Bachelor of&#10;Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Interpreting and Translation)">
+				<attribute name="name" value="Bachelor of Arts (Interpreting and Translation)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Indigenous Australian Studies&#10;Major">
+				<attribute name="name" value="Bachelor of Arts - Indigenous Australian Studies&#10;Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication / Bachelor of&#10;International Studies">
+				<attribute name="name" value="Bachelor of Communication / Bachelor of&#10;International Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies / Bachelor of&#10;Laws">
+				<attribute name="name" value="Bachelor of International Studies / Bachelor of&#10;Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Communication / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication (Dean&apos;s Scholars)">
+				<attribute name="name" value="Bachelor of Communication (Dean&apos;s Scholars)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Design - Visual Communication&#10;(Dean&apos;s Scholars)">
+				<attribute name="name" value="Bachelor of Design - Visual Communication&#10;(Dean&apos;s Scholars)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Music (Dean&apos;s Scholars)">
+				<attribute name="name" value="Bachelor of Music (Dean&apos;s Scholars)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies (Dean&apos;s&#10;Scholars)">
+				<attribute name="name" value="Bachelor of International Studies (Dean&apos;s&#10;Scholars)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication">
+				<attribute name="name" value="Bachelor of Communication"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Screen Media (Arts and Production)">
+				<attribute name="name" value="Bachelor of Screen Media (Arts and Production)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts / Bachelor of Creative Industries">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Communication/Bachelor of Creative&#10;Industries">
+				<attribute name="name" value="Bachelor of Communication/Bachelor of Creative&#10;Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Dean&apos;s Scholars) / Pathway&#10;to Teaching (Primary)">
+				<attribute name="name" value="Bachelor of Arts (Dean&apos;s Scholars) / Pathway&#10;to Teaching (Primary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (Pathway to Teaching Secondary)&#10;Dean&apos;s Scholars">
+				<attribute name="name" value="Bachelor of Arts (Pathway to Teaching Secondary)&#10;Dean&apos;s Scholars"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Creative Industries">
+				<attribute name="name" value="Bachelor of Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Chinese Major">
+				<attribute name="name" value="Bachelor of Arts - Chinese Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Arabic Major">
+				<attribute name="name" value="Bachelor of Arts - Arabic Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Indonesian Major">
+				<attribute name="name" value="Bachelor of Arts - Indonesian Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Japanese Major">
+				<attribute name="name" value="Bachelor of Arts - Japanese Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="695">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Creative Industries">
+				<attribute name="name" value="Master of Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Creative Industries">
+				<attribute name="name" value="Graduate Certificate in Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Digital Humanities">
+				<attribute name="name" value="Master of Digital Humanities"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in TESOL">
+				<attribute name="name" value="Graduate Certificate in TESOL"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in TESOL">
+				<attribute name="name" value="Graduate Diploma in TESOL"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Arts (TESOL)">
+				<attribute name="name" value="Master of Arts (TESOL)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Interpreting and Translation">
+				<attribute name="name" value="Master of Interpreting and Translation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Arts Translation and Interpreting Studies">
+				<attribute name="name" value="Master of Arts Translation and Interpreting Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Translation">
+				<attribute name="name" value="Graduate Diploma in Translation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Interpreting">
+				<attribute name="name" value="Graduate Diploma in Interpreting"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Interpreting and&#10;Translation">
+				<attribute name="name" value="Graduate Certificate in Interpreting and&#10;Translation"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Arts in Literature and Creative Writing">
+				<attribute name="name" value="Master of Arts in Literature and Creative Writing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Creative Industries">
+				<attribute name="name" value="Graduate Diploma in Creative Industries"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Translation and TESOL">
+				<attribute name="name" value="Master of Translation and TESOL"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Arts in Continental Philosophy">
+				<attribute name="name" value="Master of Arts in Continental Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Continental Philosophy">
+				<attribute name="name" value="Graduate Diploma in Continental Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Continental Philosophy">
+				<attribute name="name" value="Graduate Certificate in Continental Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="767">
+			<attribute name="name" value="Higher Degree Research"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of research">
+				<attribute name="name" value="Master of research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Philosophy">
+				<attribute name="name" value="Master of Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Philosophy (PHD)">
+				<attribute name="name" value="Doctor of Philosophy (PHD)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Professional Doctorates">
+				<attribute name="name" value="Professional Doctorates"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="782">
+		<attribute name="name" value="School of Law"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="783">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Laws (Non-graduate entry)">
+				<attribute name="name" value="Bachelor of Laws (Non-graduate entry)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Laws (Graduate entry)">
+				<attribute name="name" value="Bachelor of Laws (Graduate entry)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Business / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Business / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Accounting / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Accounting / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Construction Management Studies /&#10;Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Construction Management Studies /&#10;Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies / Bachelor of&#10;Laws">
+				<attribute name="name" value="Bachelor of International Studies / Bachelor of&#10;Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminal and Community Justice /&#10;Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Criminal and Community Justice /&#10;Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Science / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminology / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Criminology / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information Systems (Advanced)/Bachelor&#10;of Laws">
+				<attribute name="name" value="Bachelor of Information Systems (Advanced)/Bachelor&#10;of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information Systems/Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Information Systems/Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Information and Communications&#10;Technology / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Information and Communications&#10;Technology / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Social Science / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="839">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Information Governance">
+				<attribute name="name" value="Master of Information Governance"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Laws (International Governance)">
+				<attribute name="name" value="Master of Laws (International Governance)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Australian Migration Law">
+				<attribute name="name" value="Graduate Diploma in Australian Migration Law"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="850">
+		<attribute name="name" value="School of Medicine"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="851">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Medical Research">
+				<attribute name="name" value="Bachelor of Medical Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Medicine">
+				<attribute name="name" value="Doctor of Medicine"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="859">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Cardiac Sonography">
+				<attribute name="name" value="Master of Cardiac Sonography"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Medicine (Allergic Diseases)">
+				<attribute name="name" value="Master of Medicine (Allergic Diseases)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Medicine (Pathology)">
+				<attribute name="name" value="Master of Medicine (Pathology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Allergic Diseases">
+				<attribute name="name" value="Graduate Certificate in Allergic Diseases"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Cardiac Sonography">
+				<attribute name="name" value="Graduate Diploma in Cardiac Sonography"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Epidemiology">
+				<attribute name="name" value="Master of Epidemiology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Epidemiology">
+				<attribute name="name" value="Graduate Diploma in Epidemiology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Epidemiology">
+				<attribute name="name" value="Graduate Certificate in Epidemiology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="891">
+			<attribute name="name" value="Higher Degree Research"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Research">
+				<attribute name="name" value="Master of Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Philosophy">
+				<attribute name="name" value="Master of Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Philosophy (PhD)">
+				<attribute name="name" value="Doctor of Philosophy (PhD)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="902">
+		<attribute name="name" value="School of Nursing and Midwifery"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="903">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Midwifery">
+				<attribute name="name" value="Bachelor of Midwifery"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Nursing">
+				<attribute name="name" value="Bachelor of Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Nursing (Advanced)">
+				<attribute name="name" value="Bachelor of Nursing (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="915">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Graduate Certificate in Nursing">
+				<attribute name="name" value="Graduate Certificate in Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Primary Health Care">
+				<attribute name="name" value="Graduate Certificate in Primary Health Care"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Child and Family Health&#10;(Karitane)">
+				<attribute name="name" value="Graduate Diploma in Child and Family Health&#10;(Karitane)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Mental Health Nursing">
+				<attribute name="name" value="Graduate Diploma in Mental Health Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Midwifery">
+				<attribute name="name" value="Graduate Diploma in Midwifery"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Nursing">
+				<attribute name="name" value="Graduate Diploma in Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Primary Health Care">
+				<attribute name="name" value="Graduate Diploma in Primary Health Care"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Child and Family Health (Karitane)">
+				<attribute name="name" value="Master of Child and Family Health (Karitane)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Mental Health Nursing">
+				<attribute name="name" value="Master of Mental Health Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Nurse Practitioner (Mental Health)">
+				<attribute name="name" value="Master of Nurse Practitioner (Mental Health)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Nursing">
+				<attribute name="name" value="Master of Nursing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Nursing (Professional Studies)">
+				<attribute name="name" value="Master of Nursing (Professional Studies)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Primary Health Care">
+				<attribute name="name" value="Master of Primary Health Care"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="967">
+			<attribute name="name" value="Higher Degree Research"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Research">
+				<attribute name="name" value="Master of Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Philosophy">
+				<attribute name="name" value="Master of Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Philosophy (PhD)">
+				<attribute name="name" value="Doctor of Philosophy (PhD)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Professional Doctorates">
+				<attribute name="name" value="Professional Doctorates"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="982">
+		<attribute name="name" value="School of Social Sciences and Psychology"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="983">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Anthropology">
+				<attribute name="name" value="Bachelor of Anthropology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts (with a key program in Psychology)">
+				<attribute name="name" value="Bachelor of Arts (with a key program in Psychology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts - Psychological Studies Major">
+				<attribute name="name" value="Bachelor of Arts - Psychological Studies Major"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Arts / Bachelor of Social Science">
+				<attribute name="name" value="Bachelor of Arts / Bachelor of Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Community Welfare">
+				<attribute name="name" value="Bachelor of Community Welfare"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminal and Community Justice">
+				<attribute name="name" value="Bachelor of Criminal and Community Justice"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminal and Community Justice /&#10;Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Criminal and Community Justice /&#10;Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminal and Community Justice /&#10;Bachelor of Social Work">
+				<attribute name="name" value="Bachelor of Criminal and Community Justice /&#10;Bachelor of Social Work"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminology">
+				<attribute name="name" value="Bachelor of Criminology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Criminology / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Criminology / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Cyber Security and Behaviour">
+				<attribute name="name" value="Bachelor of Cyber Security and Behaviour"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Humanitarian and Development Studies">
+				<attribute name="name" value="Bachelor of Humanitarian and Development Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of International Studies / Bachelor of&#10;Social Science">
+				<attribute name="name" value="Bachelor of International Studies / Bachelor of&#10;Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Planning / Master of Urban Management&#10;and Planning">
+				<attribute name="name" value="Bachelor of Planning / Master of Urban Management&#10;and Planning"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Policing">
+				<attribute name="name" value="Bachelor of Policing"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Policing (Leadership Program)">
+				<attribute name="name" value="Bachelor of Policing (Leadership Program)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Psychology (Honours)">
+				<attribute name="name" value="Bachelor of Psychology (Honours)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science Criminology and Psychological&#10;Studies">
+				<attribute name="name" value="Bachelor of Science Criminology and Psychological&#10;Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science">
+				<attribute name="name" value="Bachelor of Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Advanced)">
+				<attribute name="name" value="Bachelor of Social Science (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Anthropology)">
+				<attribute name="name" value="Bachelor of Social Science (Anthropology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Child and Community)">
+				<attribute name="name" value="Bachelor of Social Science (Child and Community)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Criminology and&#10;Criminal Justice)">
+				<attribute name="name" value="Bachelor of Social Science (Criminology and&#10;Criminal Justice)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Geography and Urban&#10;Studies)">
+				<attribute name="name" value="Bachelor of Social Science (Geography and Urban&#10;Studies)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Heritage and Tourism)">
+				<attribute name="name" value="Bachelor of Social Science (Heritage and Tourism)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Peace and Development&#10;Studies)">
+				<attribute name="name" value="Bachelor of Social Science (Peace and Development&#10;Studies)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Psychology)">
+				<attribute name="name" value="Bachelor of Social Science (Psychology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science (Sociology)">
+				<attribute name="name" value="Bachelor of Social Science (Sociology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Science / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Social Science / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Social Work">
+				<attribute name="name" value="Bachelor of Social Work"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Tourism Management">
+				<attribute name="name" value="Bachelor of Tourism Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="1107">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Doctor of Philosophy/Master of Clinical Psychology">
+				<attribute name="name" value="Doctor of Philosophy/Master of Clinical Psychology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Counselling">
+				<attribute name="name" value="Graduate Certificate in Counselling"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Humanitarian and&#10;Development Studies">
+				<attribute name="name" value="Graduate Certificate in Humanitarian and&#10;Development Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in International Criminology">
+				<attribute name="name" value="Graduate Certificate in International Criminology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Social Science">
+				<attribute name="name" value="Graduate Certificate in Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Urban Management and&#10;Planning">
+				<attribute name="name" value="Graduate Certificate in Urban Management and&#10;Planning"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Counselling">
+				<attribute name="name" value="Graduate Diploma in Counselling"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Humanitarian and Development&#10;Studies">
+				<attribute name="name" value="Graduate Diploma in Humanitarian and Development&#10;Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in International Criminology">
+				<attribute name="name" value="Graduate Diploma in International Criminology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Psychology">
+				<attribute name="name" value="Graduate Diploma in Psychology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Social Science">
+				<attribute name="name" value="Graduate Diploma in Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma of Psychological Studies">
+				<attribute name="name" value="Graduate Diploma of Psychological Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Art Therapy">
+				<attribute name="name" value="Master of Art Therapy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Clinical Psychology">
+				<attribute name="name" value="Master of Clinical Psychology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Humanitarian and Development Studies">
+				<attribute name="name" value="Master of Humanitarian and Development Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of International Criminology">
+				<attribute name="name" value="Master of International Criminology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Planning">
+				<attribute name="name" value="Master of Planning"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Professional Psychology">
+				<attribute name="name" value="Master of Professional Psychology"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Project Management">
+				<attribute name="name" value="Master of Project Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Psychotherapy and Counselling">
+				<attribute name="name" value="Master of Psychotherapy and Counselling"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science">
+				<attribute name="name" value="Master of Social Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science (Development, Security and&#10;Sustainability)">
+				<attribute name="name" value="Master of Social Science (Development, Security and&#10;Sustainability)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science (Difference and Diversity)">
+				<attribute name="name" value="Master of Social Science (Difference and Diversity)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science (Digital Research and&#10;Social Data Analytics)">
+				<attribute name="name" value="Master of Social Science (Digital Research and&#10;Social Data Analytics)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science (International&#10;Criminology)">
+				<attribute name="name" value="Master of Social Science (International&#10;Criminology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Science (Religion and Society)">
+				<attribute name="name" value="Master of Social Science (Religion and Society)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Social Work (Qualifying)">
+				<attribute name="name" value="Master of Social Work (Qualifying)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Urban Management and Planning">
+				<attribute name="name" value="Master of Urban Management and Planning"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="1219">
+			<attribute name="name" value="Higher Degree Research"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Research">
+				<attribute name="name" value="Master of Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Philosophy">
+				<attribute name="name" value="Master of Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Philosophy (PhD)">
+				<attribute name="name" value="Doctor of Philosophy (PhD)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Professional Doctorates">
+				<attribute name="name" value="Professional Doctorates"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+	<branch id="1234">
+		<attribute name="name" value="School of Science and Health"/>
+		<attribute name="type" value="1"/>
+		<attribute name="link" value=""/>
+		<attribute name="flag" value="0"/>
+		<attribute name="weight" value="0.0"/>
+		<branch id="1235">
+			<attribute name="name" value="Undergraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Bachelor of Health Science (Health and Physical&#10;Education)">
+				<attribute name="name" value="Bachelor of Health Science (Health and Physical&#10;Education)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Health Promotion)">
+				<attribute name="name" value="Bachelor of Health Science (Health Promotion)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Health Services&#10;Management)">
+				<attribute name="name" value="Bachelor of Health Science (Health Services&#10;Management)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)">
+				<attribute name="name" value="Bachelor of Health Science (HPE) - Pathway to&#10;Teaching (Secondary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Paramedicine)">
+				<attribute name="name" value="Bachelor of Health Science (Paramedicine)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Public Health)">
+				<attribute name="name" value="Bachelor of Health Science (Public Health)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Sport and Exercise&#10;Science)">
+				<attribute name="name" value="Bachelor of Health Science (Sport and Exercise&#10;Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Health Science (Therapeutic Recreation)">
+				<attribute name="name" value="Bachelor of Health Science (Therapeutic Recreation)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Medical Science">
+				<attribute name="name" value="Bachelor of Medical Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Medical Science (Advanced)">
+				<attribute name="name" value="Bachelor of Medical Science (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Natural Science (Advanced)">
+				<attribute name="name" value="Bachelor of Natural Science (Advanced)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Natural Science (Animal Science)">
+				<attribute name="name" value="Bachelor of Natural Science (Animal Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Natural Science (Environment and&#10;Health)">
+				<attribute name="name" value="Bachelor of Natural Science (Environment and&#10;Health)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Natural Science (Environmental&#10;Management)">
+				<attribute name="name" value="Bachelor of Natural Science (Environmental&#10;Management)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Occupational Therapy">
+				<attribute name="name" value="Bachelor of Occupational Therapy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Physiotherapy">
+				<attribute name="name" value="Bachelor of Physiotherapy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Podiatric Medicine">
+				<attribute name="name" value="Bachelor of Podiatric Medicine"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science">
+				<attribute name="name" value="Bachelor of Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Advanced Science)">
+				<attribute name="name" value="Bachelor of Science (Advanced Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Biological Sciences)">
+				<attribute name="name" value="Bachelor of Science (Biological Sciences)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Chemistry)">
+				<attribute name="name" value="Bachelor of Science (Chemistry)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Environmental Science)">
+				<attribute name="name" value="Bachelor of Science (Environmental Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Forensic Science)">
+				<attribute name="name" value="Bachelor of Science (Forensic Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Mathematical Science)">
+				<attribute name="name" value="Bachelor of Science (Mathematical Science)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Nutrition and Food Sciences)">
+				<attribute name="name" value="Bachelor of Science (Nutrition and Food Sciences)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science (Zoology)">
+				<attribute name="name" value="Bachelor of Science (Zoology)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science -Pathway to Teaching&#10;(Primary/Secondary)">
+				<attribute name="name" value="Bachelor of Science -Pathway to Teaching&#10;(Primary/Secondary)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of Arts">
+				<attribute name="name" value="Bachelor of Science / Bachelor of Arts"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of International&#10;Studies">
+				<attribute name="name" value="Bachelor of Science / Bachelor of International&#10;Studies"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of Business">
+				<attribute name="name" value="Bachelor of Science / Bachelor of Business"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Science / Bachelor of Laws">
+				<attribute name="name" value="Bachelor of Science / Bachelor of Laws"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Sustainable Agriculture and Food&#10;Security">
+				<attribute name="name" value="Bachelor of Sustainable Agriculture and Food&#10;Security"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Bachelor of Traditional Chinese Medicine">
+				<attribute name="name" value="Bachelor of Traditional Chinese Medicine"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="1367">
+			<attribute name="name" value="Postgraduate"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Graduate Certificate in Aged Care Management">
+				<attribute name="name" value="Graduate Certificate in Aged Care Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Applied Clinical Health&#10;Research">
+				<attribute name="name" value="Graduate Certificate in Applied Clinical Health&#10;Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Forensic Science">
+				<attribute name="name" value="Graduate Certificate in Forensic Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Health Science">
+				<attribute name="name" value="Graduate Certificate in Health Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Certificate in Public Health">
+				<attribute name="name" value="Graduate Certificate in Public Health"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Aged Care Management">
+				<attribute name="name" value="Graduate Diploma in Aged Care Management"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Forensic Science">
+				<attribute name="name" value="Graduate Diploma in Forensic Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Health Science">
+				<attribute name="name" value="Graduate Diploma in Health Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Graduate Diploma in Public Health">
+				<attribute name="name" value="Graduate Diploma in Public Health"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Chinese Medicine">
+				<attribute name="name" value="Master of Chinese Medicine"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Forensic Science">
+				<attribute name="name" value="Master of Forensic Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Health Science">
+				<attribute name="name" value="Master of Health Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Primary Health Care">
+				<attribute name="name" value="Master of Primary Health Care"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Public Health">
+				<attribute name="name" value="Master of Public Health"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Science">
+				<attribute name="name" value="Master of Science"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+		<branch id="1427">
+			<attribute name="name" value="Higher Degree Research"/>
+			<attribute name="type" value="1"/>
+			<attribute name="link" value=""/>
+			<attribute name="flag" value="0"/>
+			<attribute name="weight" value="0.0"/>
+			<leaf id="Master of Research">
+				<attribute name="name" value="Master of Research"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Master of Philosophy">
+				<attribute name="name" value="Master of Philosophy"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Doctor of Philosophy (PhD)">
+				<attribute name="name" value="Doctor of Philosophy (PhD)"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+			<leaf id="Professional Doctorates">
+				<attribute name="name" value="Professional Doctorates"/>
+				<attribute name="type" value="2"/>
+				<attribute name="link" value=""/>
+				<attribute name="flag" value="0"/>
+				<attribute name="weight" value="0.0"/>
+			</leaf>
+		</branch>
+	</branch>
+</branch>
+</tree>
