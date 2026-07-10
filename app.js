@@ -834,6 +834,13 @@ function updateChartHeader() {
     els.drillUpBtn.classList.toggle("hidden", root === state.root);
     return;
   }
+  if (state.chartType === "tree") {
+    const focus = findById(state.root, state.focusId) || state.root;
+    const path = pathToRoot(focus).reverse().map((item) => displayLabel(item.label)).join(" / ");
+    els.chartPath.textContent = path;
+    els.drillUpBtn.classList.toggle("hidden", focus === state.root);
+    return;
+  }
   els.chartPath.textContent = state.root?.label || "";
   els.drillUpBtn.classList.add("hidden");
 }
@@ -866,12 +873,23 @@ function updateSearchOptions() {
 }
 
 function drillUp() {
-  if (state.chartType !== "dc-treemap") return;
-  const current = findById(state.root, state.dcDrillId) || state.root;
-  if (!current.parent) return;
-  state.dcDrillId = current.parent === state.root ? null : current.parent.id;
-  setStatus(`Showing ${displayLabel(current.parent.label)}.`);
-  render();
+  if (state.chartType === "dc-treemap") {
+    const current = findById(state.root, state.dcDrillId) || state.root;
+    if (!current.parent) return;
+    state.dcDrillId = current.parent === state.root ? null : current.parent.id;
+    setStatus(`Showing ${displayLabel(current.parent.label)}.`);
+    render();
+    return;
+  }
+
+  if (state.chartType === "tree") {
+    const focus = findById(state.root, state.focusId) || state.root;
+    if (!focus.parent) return;
+    state.focusId = focus.parent.id;
+    state.treeFocusId = focus.parent.id;
+    setStatus(`Focused ${displayLabel(focus.parent.label)}.`);
+    render();
+  }
 }
 
 function applySearchFocus() {
